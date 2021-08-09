@@ -130,7 +130,6 @@ namespace sleep
       MyVisualScriptLogicProvider.ScreenColorFadingMinimalizeHUD(false);
       MyVisualScriptLogicProvider.ScreenColorFadingStart(0.1f, blink, 0L);
     }
-
     private MyEntityStat GetPlayerStat(MyEntityStatComponent statComp, string statName)
     {
       MyEntityStat stat;
@@ -140,10 +139,7 @@ namespace sleep
 
     public static void Echo(string msg1, string msg2 = "")
     {
-//      MyAPIGateway.Utilities.ShowMessage(msg1, msg2);
       MyLog.Default.WriteLineAndConsole(msg1 + ": " + msg2);
     }
-
   }
-  
 }

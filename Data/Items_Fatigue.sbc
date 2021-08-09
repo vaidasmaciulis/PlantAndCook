@@ -133,7 +133,7 @@
         <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Apple" />
-      <BaseProductionTimeInSeconds>6000</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>2000</BaseProductionTimeInSeconds>
     </Blueprint>
     
     <Blueprint>
@@ -163,7 +163,7 @@
       <Item Amount="6" TypeId="ConsumableItem" SubtypeId="Apple" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="AppleJuice" />
-      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
@@ -178,7 +178,7 @@
         <Item Amount="15" TypeId="ConsumableItem" SubtypeId="Apple" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="ApplePie" />
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
     </Blueprint>
     
     <Blueprint>
@@ -193,7 +193,7 @@
         <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Meat" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="MeatRoasted" />
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
@@ -209,7 +209,7 @@
         <Item Amount="6" TypeId="ConsumableItem" SubtypeId="Mushrooms" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="ShroomSteak" />
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
     </Blueprint>
     
   </Blueprints>
