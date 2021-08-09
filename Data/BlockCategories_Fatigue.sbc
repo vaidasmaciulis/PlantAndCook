@@ -11,19 +11,13 @@
       <SearchBlocks>false</SearchBlocks>
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
-        <string>Medkit</string>
-        <string>Powerkit</string>
         <string>AppleJuice</string>
-        <string>CosmicCoffee</string>
-        <string>ClangCola</string>
         <string>Mushrooms</string>
         <string>Apple</string>
         <string>ApplePie</string>
         <string>Meat</string>
         <string>MeatRoasted</string>
         <string>ShroomSteak</string>
-        <string>Medkit</string>
-        <string>Powerkit</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

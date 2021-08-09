@@ -89,7 +89,6 @@
 <!-- Blueprint Classes -->
 
   <BlueprintClassEntries>     
-    <!-- <Entry Class="CommonMetals" BlueprintSubtypeId="Organic" /> -->
     <Entry Class="Farming" BlueprintSubtypeId="Mushrooms" />
     <Entry Class="Farming" BlueprintSubtypeId="Apple" />
     <Entry Class="Farming" BlueprintSubtypeId="Sapling" />
@@ -99,7 +98,7 @@
     <Entry Class="Cooking" BlueprintSubtypeId="ShroomSteak" />
   </BlueprintClassEntries>
 
-<!-- Blieprints -->
+<!-- Blueprints -->
 
   <Blueprints>  
     <Blueprint>
@@ -111,7 +110,8 @@
       <Description>fungus of unknown origin</Description>
     <Icon>Textures\GUI\Icons\Mushrooms.png</Icon>
       <Prerequisites>
-        <Item Amount="3" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
         <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Mushrooms" />
@@ -127,10 +127,10 @@
       <Description>a space-grown version of the red fruit</Description>
     <Icon>Textures\GUI\Icons\Apple.png</Icon>
       <Prerequisites>
-        <Item Amount="0.01" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="0.001" TypeId="Ore" SubtypeId="Sapling" />
-        <Item Amount="0.1" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="0.6" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="0.1" TypeId="Ore" SubtypeId="Sapling" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Apple" />
       <BaseProductionTimeInSeconds>6000</BaseProductionTimeInSeconds>
@@ -206,7 +206,7 @@
       <Icon>Textures\GUI\Icons\ShroomSteak.png</Icon>
       <Prerequisites>
         <Item Amount="3" TypeId="ConsumableItem" SubtypeId="Meat" />
-        <Item Amount="9" TypeId="ConsumableItem" SubtypeId="Mushrooms" />
+        <Item Amount="6" TypeId="ConsumableItem" SubtypeId="Mushrooms" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="ShroomSteak" />
       <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
@@ -255,9 +255,7 @@
       <Model>Models\AppleJuiceBottle.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.1" Time="1"/>
-        <Stat Name="Sleep" Value="0.05" Time="2"/>
-        <Stat Name="Food" Value="0.05" Time="1"/>
+        <Stat Name="Health" Value="0.025" Time="2"/>
         <Stat Name="Water" Value="0.25" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
@@ -284,8 +282,8 @@
       <Model>Models\Consumables\Mushrooms.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="-0.01" Time="2"/>
-        <Stat Name="Food" Value="0.05" Time="1"/>
+        <Stat Name="Health" Value="-0.01" Time="5"/>
+        <Stat Name="Food" Value="0.05" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>10</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -311,8 +309,7 @@
       <Model>Models\PickedApple.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.01" Time="10"/>
-        <Stat Name="Sleep" Value="0.05" Time="2"/>
+        <Stat Name="Health" Value="0.01" Time="5"/>
         <Stat Name="Food" Value="0.05" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>50</MinimalPricePerUnit>
@@ -339,8 +336,7 @@
       <Model>Models\ApplePie.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.025" Time="5"/>
-        <Stat Name="Sleep" Value="-0.025" Time="2"/>
+        <Stat Name="Sleep" Value="-0.01" Time="5"/>
         <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>250</MinimalPricePerUnit>
@@ -367,9 +363,8 @@
       <Model>Models\Consumables\Meat.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="-0.04" Time="5"/>
-        <Stat Name="Sleep" Value="0.05" Time="5"/>
-        <Stat Name="Food" Value="-0.05" Time="5"/>
+        <Stat Name="Health" Value="-0.05" Time="5"/>
+        <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -395,9 +390,8 @@
       <Model>Models\Consumables\MeatRoasted.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.05" Time="6"/>
-        <Stat Name="Sleep" Value="-0.025" Time="2"/>
-        <Stat Name="Food" Value="0.05" Time="6"/>
+        <Stat Name="Health" Value="0.01" Time="5"/>
+        <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>500</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
@@ -423,9 +417,8 @@
       <Model>Models\Consumables\ShroomSteak.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.05" Time="8"/>
-        <Stat Name="Sleep" Value="-0.025" Time="2"/>
-        <Stat Name="Food" Value="0.05" Time="8"/>
+        <Stat Name="Health" Value="0.02" Time="10"/>
+        <Stat Name="Food" Value="0.1" Time="10"/>
       </Stats>
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
