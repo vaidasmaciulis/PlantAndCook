@@ -89,7 +89,7 @@
 <!-- Blueprint Classes -->
 
   <BlueprintClassEntries>     
-    <Entry Class="CommonMetals" BlueprintSubtypeId="Organic" />
+    <!-- <Entry Class="CommonMetals" BlueprintSubtypeId="Organic" /> -->
     <Entry Class="Farming" BlueprintSubtypeId="Mushrooms" />
     <Entry Class="Farming" BlueprintSubtypeId="Apple" />
     <Entry Class="Farming" BlueprintSubtypeId="Sapling" />
@@ -102,22 +102,6 @@
 <!-- Blieprints -->
 
   <Blueprints>  
-  
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Organic</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_Organic</DisplayName>
-      <Description>organic trace matter</Description>
-      <Icon>Textures\GUI\Icons\ore_biomass.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Stone" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="Ore" SubtypeId="Organic" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
-    </Blueprint>
-    
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -253,61 +237,6 @@
       <PhysicalMaterial>Wood</PhysicalMaterial>
     </PhysicalItem>
 
-		<PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>ClangCola</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_ClangCola</DisplayName>
-      <Description>Description_ClangKola</Description>
-      <Icon>Textures\GUI\Icons\Items\ClangCola.dds</Icon>
-      <Size>
-        <X>0.14</X>
-        <Y>0.43</Y>
-        <Z>0.14</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Items\ClangCola.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <Stats>
-        <Stat Name="Health" Value="0.05" Time="1"/>
-        <Stat Name="Fatigue" Value="0.1" Time="1"/>
-        <Stat Name="Hunger" Value="-0.1" Time="1"/>
-      </Stats>
-      <MinimalPricePerUnit>100</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-        
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>CosmicCoffee</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_CosmicCoffee</DisplayName>
-      <Description>Description_CosmicCoffee</Description>
-      <Icon>Textures\GUI\Icons\Items\CosmicCoffee.dds</Icon>
-      <Size>
-        <X>0.14</X>
-        <Y>0.43</Y>
-        <Z>0.14</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>1</Volume>
-      <Model>Models\Items\CosmicCoffee.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <Stats>
-        <Stat Name="Health" Value="0.025" Time="2"/>
-        <Stat Name="Fatigue" Value="0.05" Time="2"/>
-      </Stats>      
-      <MinimalPricePerUnit>100</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-        
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
@@ -327,8 +256,9 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.1" Time="1"/>
-        <Stat Name="Fatigue" Value="0.05" Time="2"/>
-        <Stat Name="Hunger" Value="0.05" Time="1"/>
+        <Stat Name="Sleep" Value="0.05" Time="2"/>
+        <Stat Name="Food" Value="0.05" Time="1"/>
+        <Stat Name="Water" Value="0.25" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -355,7 +285,7 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="-0.01" Time="2"/>
-        <Stat Name="Hunger" Value="0.05" Time="1"/>
+        <Stat Name="Food" Value="0.05" Time="1"/>
       </Stats>
       <MinimalPricePerUnit>10</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -382,8 +312,8 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.01" Time="10"/>
-        <Stat Name="Fatigue" Value="0.05" Time="2"/>
-        <Stat Name="Hunger" Value="0.05" Time="2"/>
+        <Stat Name="Sleep" Value="0.05" Time="2"/>
+        <Stat Name="Food" Value="0.05" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>50</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -410,8 +340,8 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.025" Time="5"/>
-        <Stat Name="Fatigue" Value="-0.025" Time="2"/>
-        <Stat Name="Hunger" Value="0.05" Time="5"/>
+        <Stat Name="Sleep" Value="-0.025" Time="2"/>
+        <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>250</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
@@ -438,8 +368,8 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="-0.04" Time="5"/>
-        <Stat Name="Fatigue" Value="0.05" Time="5"/>
-        <Stat Name="Hunger" Value="-0.05" Time="5"/>
+        <Stat Name="Sleep" Value="0.05" Time="5"/>
+        <Stat Name="Food" Value="-0.05" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -466,8 +396,8 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.05" Time="6"/>
-        <Stat Name="Fatigue" Value="-0.025" Time="2"/>
-        <Stat Name="Hunger" Value="0.05" Time="6"/>
+        <Stat Name="Sleep" Value="-0.025" Time="2"/>
+        <Stat Name="Food" Value="0.05" Time="6"/>
       </Stats>
       <MinimalPricePerUnit>500</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
@@ -494,68 +424,13 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.05" Time="8"/>
-        <Stat Name="Fatigue" Value="-0.025" Time="2"/>
-        <Stat Name="Hunger" Value="0.05" Time="8"/>
+        <Stat Name="Sleep" Value="-0.025" Time="2"/>
+        <Stat Name="Food" Value="0.05" Time="8"/>
       </Stats>
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
       <MaximumOfferAmount>1000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem> 
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Medkit</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_Medkit</DisplayName>
-      <Description>Description_Medkit</Description>
-      <Icon>Textures\GUI\Icons\Items\MedKit.dds</Icon>
-      <Size>
-        <X>0.5</X>
-        <Y>0.5</Y>
-        <Z>0.5</Z>
-      </Size>
-      <Mass>10</Mass>
-      <Volume>12</Volume>
-      <Model>Models\Items\Medkit_Item.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <Stats>
-        <Stat Name="Health" Value="0.25" Time="1"/>
-        <Stat Name="Fatigue" Value="0.25" Time="1"/>
-      </Stats>
-      <MinimalPricePerUnit>750</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Powerkit</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_Powerkit</DisplayName>
-      <Description>Description_Powerkit</Description>
-      <Icon>Textures\GUI\Icons\Items\PowerKit.dds</Icon>
-      <Size>
-        <X>0.14</X>
-        <Y>0.43</Y>
-        <Z>0.14</Z>
-      </Size>
-      <Mass>9</Mass>
-      <Volume>9</Volume>
-      <Model>Models\Items\PowerKit.mwm</Model>
-      <PhysicalMaterial>Metal</PhysicalMaterial>
-      <Stats>
-        <Stat Name="BatteryCharge" Value="0.05" Time="5"/>
-      </Stats>
-      <MinimalPricePerUnit>1000</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-    
   </PhysicalItems>
-
 </Definitions>

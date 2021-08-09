@@ -15,7 +15,7 @@ using VRageMath;
 
 // Code heavily borrowed from Bačiulis' awesome Drink Water mod. Thanks so much for pointing me towards these methods dude, very much appreciated.
 
-namespace Fatigue
+namespace sleep
 {
   [MySessionComponentDescriptor(MyUpdateOrder.AfterSimulation)]
   public class Session : MySessionComponentBase
@@ -69,36 +69,26 @@ namespace Fatigue
           if (statComp == null)
             continue;
           
-          MyEntityStat fatigue = GetPlayerStat(statComp, "Fatigue");
-          MyEntityStat hunger = GetPlayerStat(statComp, "Hunger");
+          MyEntityStat sleep = GetPlayerStat(statComp, "Sleep");
+          MyEntityStat food = GetPlayerStat(statComp, "Food");
          
-          if (fatigue==null || hunger==null)
+          if (sleep==null || food==null)
             continue;
           
           var block = player.Controller?.ControlledEntity?.Entity as IMyCubeBlock;
           if (block!=null)
-            if (block.ToString().StartsWith("MyCryoChamber"))
-              fatigue.Increase(5f, null);
-            else if (block.ToString().Contains("Toilet"))
+            if (block.ToString().Contains("Toilet") || block.ToString().Contains("Bathroom"))
             {
-              hunger.Decrease(5f, null);
-              if (hunger.Value > 0)
+              food.Decrease(5f, null);
+              if (food.Value > 0)
                 player.Character.GetInventory(0).AddItems((MyFixedPoint)0.05f, (MyObjectBuilder_PhysicalObject)MyObjectBuilderSerializer.CreateNewObject(new MyDefinitionId(typeof(MyObjectBuilder_Ore), "Organic")));
             }
           
           // Do remaining checks & stat updates every 5s
-          if (runCount < 300)
+          if (runCount < 100)
             continue;
           
-          if (hunger.Value > 0)
-            hunger.Decrease(0.1f, null);
-          
-          if (hunger.Value < 30)
-            fatigue.Decrease((float)Math.Min(fatigue.Value / 100, (50 - hunger.Value)/20), null);
-          else if (hunger.Value > 70)
-            fatigue.Increase((float)Math.Min(fatigue.Value / 100, (hunger.Value - 50)/20), null);
-
-          if (fatigue.Value > 20 || rand.Next((int)fatigue.Value) > 0)
+          if (sleep.Value > 20 || rand.Next((int)sleep.Value) > 0)
             continue;
           
           blinkList.Add(player.IdentityId);
@@ -113,7 +103,7 @@ namespace Fatigue
       }
       catch (Exception ex)
       {
-        Echo("Fatigue exception", ex.ToString());
+        Echo("sleep exception", ex.ToString());
       }
     }
 
@@ -127,14 +117,15 @@ namespace Fatigue
       }
       catch (Exception ex)
       {
-        Echo("Fatigue exception", ex.ToString());
+        Echo("sleep exception", ex.ToString());
       }
     }    
 
     public void blink(bool blink)
     {
       MyVisualScriptLogicProvider.ScreenColorFadingSetColor(Color.Black, 0L);
-      MyVisualScriptLogicProvider.ScreenColorFadingStart(0.25f, blink, 0L);
+      MyVisualScriptLogicProvider.ScreenColorFadingMinimalizeHUD(false);
+      MyVisualScriptLogicProvider.ScreenColorFadingStart(0.1f, blink, 0L);
     }
 
     private MyEntityStat GetPlayerStat(MyEntityStatComponent statComp, string statName)
@@ -150,103 +141,6 @@ namespace Fatigue
       MyLog.Default.WriteLineAndConsole(msg1 + ": " + msg2);
     }
 
-  }
-
-  public class MyStatPlayerFatigue : IMyHudStat
-  {
-    
-    public MyStatPlayerFatigue()
-    {
-      Id = MyStringHash.GetOrCompute("player_fatigue");
-    }
-
-    private float m_currentValue;
-    private string m_valueStringCache;
-
-    public MyStringHash Id { get; protected set; }
-
-    public float CurrentValue
-    {
-      get { return m_currentValue; }
-      protected set
-      {
-        if (m_currentValue == value)
-          return;
-        m_currentValue = value;
-        m_valueStringCache = null;
-      }
-    }
-
-    public virtual float MaxValue => 1f;
-    public virtual float MinValue => 0.0f;
-
-    public string GetValueString()
-    {
-      if (m_valueStringCache == null)
-        m_valueStringCache = ToString();
-      return m_valueStringCache;
-    }
-
-    public void Update()
-    {
-      MyEntityStatComponent statComp = MyAPIGateway.Session.Player?.Character?.Components.Get<MyEntityStatComponent>();
-      if (statComp == null)
-          return;
-      MyEntityStat Fatigue;
-      if (statComp.TryGetStat(MyStringHash.GetOrCompute("Fatigue"), out Fatigue))
-        CurrentValue = Fatigue.Value / Fatigue.MaxValue;
-    }
-    
-    public override string ToString() => string.Format("{0:0}", (float)(CurrentValue * 100.0));
-  }
-
-  public class MyStatPlayerHunger : IMyHudStat
-  {
-    
-    public MyStatPlayerHunger()
-    {
-      Id = MyStringHash.GetOrCompute("player_hunger");
-    }
-
-    private float m_currentValue;
-    private string m_valueStringCache;
-
-    public MyStringHash Id { get; protected set; }
-
-    public float CurrentValue
-    {
-      get { return m_currentValue; }
-      protected set
-      {
-        if (m_currentValue == value)
-          return;
-        m_currentValue = value;
-        m_valueStringCache = null;
-      }
-    }
-
-    public virtual float MaxValue => 1f;
-    public virtual float MinValue => 0.0f;
-
-    public string GetValueString()
-    {
-      if (m_valueStringCache == null)
-        m_valueStringCache = ToString();
-      return m_valueStringCache;
-    }
-
-    public void Update()
-    {
-      MyEntityStatComponent statComp = MyAPIGateway.Session.Player?.Character?.Components.Get<MyEntityStatComponent>();
-      if (statComp == null)
-        return;
-      
-      MyEntityStat Hunger;
-      if (statComp.TryGetStat(MyStringHash.GetOrCompute("Hunger"), out Hunger))
-        CurrentValue = Hunger.Value / Hunger.MaxValue;
-    }
-
-    public override string ToString() => string.Format("{0:0}", (float)(CurrentValue * 100.0));
   }
   
 }
