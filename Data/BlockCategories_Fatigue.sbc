@@ -20,5 +20,18 @@
         <string>ShroomSteak</string>
       </ItemIds>
     </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+          <TypeId>GuiBlockCategoryDefinition</TypeId>
+          <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_DLC_DecorativeBlocks</DisplayName>
+        <Name>DecorativeBlocks</Name>
+        <StrictSearch>true</StrictSearch>
+        <ItemIds>
+          <string>Assembler/Kitchen</string>
+          <string>Assembler/Planters</string>
+        </ItemIds>
+      </Category>
   </CategoryClasses>
 </Definitions>
