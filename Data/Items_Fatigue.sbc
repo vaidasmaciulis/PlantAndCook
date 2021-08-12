@@ -175,7 +175,7 @@
       <Description>a delicious snack, high in carbs</Description>
       <Icon>Textures\GUI\Icons\ApplePie.png</Icon>
       <Prerequisites>
-        <Item Amount="15" TypeId="ConsumableItem" SubtypeId="Apple" />
+        <Item Amount="10" TypeId="ConsumableItem" SubtypeId="Apple" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="ApplePie" />
       <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
@@ -310,7 +310,7 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.01" Time="5"/>
-        <Stat Name="Food" Value="0.05" Time="2"/>
+        <Stat Name="Food" Value="0.05" Time="1"/>
       </Stats>
       <MinimalPricePerUnit>50</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -337,7 +337,7 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Sleep" Value="-0.01" Time="5"/>
-        <Stat Name="Food" Value="0.05" Time="5"/>
+        <Stat Name="Food" Value="0.1" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>250</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
