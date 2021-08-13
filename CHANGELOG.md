@@ -4,6 +4,7 @@ UPDATE 8/14/2021:
 - Bread consumable added
 - Burger consumable added
 - Food stat values tweaked
+- Wheat and Apples can be found in drop pods
 
 UPDATE 8/12/2021:
 

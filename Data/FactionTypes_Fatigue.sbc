@@ -37,6 +37,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="LaysChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="PrlnglesChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
         </OffersList>
 
         <OrdersList>            
@@ -137,6 +138,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="LaysChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="PrlnglesChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
         </OffersList>
 
         <OrdersList>
@@ -181,6 +183,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="LaysChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="PrlnglesChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
         </OffersList>
 
         <OrdersList>
