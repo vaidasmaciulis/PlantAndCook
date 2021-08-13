@@ -78,10 +78,13 @@
     <Entry Class="Farming" BlueprintSubtypeId="Mushrooms" />
     <Entry Class="Farming" BlueprintSubtypeId="Apple" />
     <Entry Class="Farming" BlueprintSubtypeId="Sapling" />
+    <Entry Class="Farming" BlueprintSubtypeId="Wheat" />
     <Entry Class="Cooking" BlueprintSubtypeId="AppleJuice" />
     <Entry Class="Cooking" BlueprintSubtypeId="ApplePie" />
     <Entry Class="Cooking" BlueprintSubtypeId="MeatRoasted" />
     <Entry Class="Cooking" BlueprintSubtypeId="ShroomSteak" />
+    <Entry Class="Cooking" BlueprintSubtypeId="Bread" />
+    <Entry Class="Cooking" BlueprintSubtypeId="Burger" />
   </BlueprintClassEntries>
 
 <!-- Blueprints -->
@@ -136,7 +139,56 @@
       <Result Amount="1" TypeId="Ore" SubtypeId="Sapling" />
       <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
     </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Wheat</SubtypeId>
+      </Id>
+      <DisplayName>Wheat</DisplayName>
+      <Description>Spike of gluten-full Wheat</Description>
+    <Icon>Textures\GUI\Icons\Wheat.png</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Wheat" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="0.3" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="20" TypeId="Ingot" SubtypeId="Wheat" />
+      <BaseProductionTimeInSeconds>2000</BaseProductionTimeInSeconds>
+    </Blueprint>
     
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Bread</SubtypeId>
+      </Id>
+      <DisplayName>Bread</DisplayName>
+      <Description>Right out of the oven.</Description>
+    <Icon>Textures\GUI\Icons\Bread.png</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Wheat" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Bread" />
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Burger</SubtypeId>
+      </Id>
+      <DisplayName>Burger</DisplayName>
+      <Description>You are what you eat.</Description>
+    <Icon>Textures\GUI\Icons\Burger.png</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Bread" />
+        <Item Amount="2" TypeId="ConsumableItem" SubtypeId="MeatRoasted" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Burger" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -161,10 +213,11 @@
       <Description>a delicious snack, high in carbs</Description>
       <Icon>Textures\GUI\Icons\ApplePie.png</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="ConsumableItem" SubtypeId="Apple" />
+        <Item Amount="5" TypeId="ConsumableItem" SubtypeId="Apple" />
+        <Item Amount="15" TypeId="Ingot" SubtypeId="Wheat" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="ApplePie" />
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
     </Blueprint>
     
     <Blueprint>
@@ -241,7 +294,6 @@
       <Model>Models\AppleJuiceBottle.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.025" Time="2"/>
         <Stat Name="Water" Value="0.25" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
@@ -295,7 +347,7 @@
       <Model>Models\PickedApple.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.01" Time="5"/>
+        <Stat Name="Health" Value="0.01" Time="1"/>
         <Stat Name="Food" Value="0.05" Time="1"/>
       </Stats>
       <MinimalPricePerUnit>50</MinimalPricePerUnit>
@@ -304,6 +356,85 @@
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Wheat</SubtypeId>
+      </Id>
+      <DisplayName>Wheat</DisplayName>
+      <Description>Spike of gluten-full Wheat</Description>
+      <Icon>Textures\GUI\Icons\Wheat.png</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.02</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.01</Volume>
+      <Model>Models\Wheat.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <IconSymbol></IconSymbol>
+      <MinimalPricePerUnit>100</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>Bread</SubtypeId>
+      </Id>
+      <DisplayName>Bread</DisplayName>
+      <Description>Right out of the oven.</Description>
+      <Icon>Textures\GUI\Icons\Bread.png</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.02</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.3</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Bread.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Food" Value="0.05" Time="3"/>
+      </Stats>
+      <IconSymbol></IconSymbol>
+      <MinimalPricePerUnit>200</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>Burger</SubtypeId>
+      </Id>
+      <DisplayName>Burger</DisplayName>
+      <Description>You are what you eat.</Description>
+      <Icon>Textures\GUI\Icons\Burger.png</Icon>
+      <Size>
+        <X>0.03</X>
+        <Y>0.03</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Burger.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Health" Value="0.02" Time="10"/>
+        <Stat Name="Food" Value="0.1" Time="10"/>
+      </Stats>
+      <IconSymbol></IconSymbol>
+      <MinimalPricePerUnit>200</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
@@ -323,7 +454,7 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Sleep" Value="-0.01" Time="5"/>
-        <Stat Name="Food" Value="0.1" Time="5"/>
+        <Stat Name="Food" Value="0.1" Time="7"/>
       </Stats>
       <MinimalPricePerUnit>250</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
@@ -376,7 +507,6 @@
       <Model>Models\Consumables\MeatRoasted.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.01" Time="5"/>
         <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
       <MinimalPricePerUnit>500</MinimalPricePerUnit>
