@@ -344,7 +344,7 @@
       </Size>
       <Mass>0.05</Mass>
       <Volume>0.05</Volume>
-      <Model>Models\PickedApple.mwm</Model>
+      <Model>Models\Apple.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
         <Stat Name="Health" Value="0.01" Time="1"/>
