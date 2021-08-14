@@ -1,3 +1,7 @@
+UPDATE 8/15/2021:
+
+- Apple, Apple Pie and Burger re-skins
+
 UPDATE 8/14/2021:
 
 - Wheat crop added
