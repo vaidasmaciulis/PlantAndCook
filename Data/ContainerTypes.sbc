@@ -15,7 +15,7 @@
                     </Id>
                 </Item>
 
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>
@@ -23,7 +23,7 @@
                     </Id>
                 </Item>
                        
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>
@@ -31,7 +31,7 @@
                     </Id>
                 </Item>
 
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>
@@ -39,7 +39,7 @@
                     </Id>
                 </Item>
                 
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>
@@ -47,7 +47,7 @@
                     </Id>
                 </Item>
 
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>
@@ -55,7 +55,7 @@
                     </Id>
                 </Item>
 
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>
@@ -63,7 +63,7 @@
                     </Id>
                 </Item>
                 
-                <Item AmountMin="1" AmountMax="10">
+                <Item AmountMin="1" AmountMax="5">
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>ConsumableItem</TypeId>

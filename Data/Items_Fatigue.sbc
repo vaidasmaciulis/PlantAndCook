@@ -350,9 +350,11 @@
         <Stat Name="Health" Value="0.01" Time="1"/>
         <Stat Name="Food" Value="0.05" Time="1"/>
       </Stats>
-      <MinimalPricePerUnit>50</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimalPricePerUnit>100</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>10</MaximumOfferAmount>
+      <MinimumOrderAmount>1000</MinimumOrderAmount>
+      <MaximumOrderAmount>20000</MaximumOrderAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     
@@ -375,8 +377,10 @@
       <PhysicalMaterial>None</PhysicalMaterial>
       <IconSymbol></IconSymbol>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>10</MaximumOfferAmount>
+      <MinimumOrderAmount>1000</MinimumOrderAmount>
+      <MaximumOrderAmount>20000</MaximumOrderAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     
@@ -429,7 +433,7 @@
         <Stat Name="Food" Value="0.1" Time="10"/>
       </Stats>
       <IconSymbol></IconSymbol>
-      <MinimalPricePerUnit>200</MinimalPricePerUnit>
+      <MinimalPricePerUnit>750</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
       <MaximumOfferAmount>10000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
@@ -456,7 +460,7 @@
         <Stat Name="Sleep" Value="-0.01" Time="5"/>
         <Stat Name="Food" Value="0.1" Time="7"/>
       </Stats>
-      <MinimalPricePerUnit>250</MinimalPricePerUnit>
+      <MinimalPricePerUnit>500</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
       <MaximumOfferAmount>1000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
@@ -483,7 +487,7 @@
         <Stat Name="Health" Value="-0.05" Time="5"/>
         <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
-      <MinimalPricePerUnit>100</MinimalPricePerUnit>
+      <MinimalPricePerUnit>200</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
       <MaximumOfferAmount>10000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
@@ -509,7 +513,7 @@
       <Stats>
         <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
-      <MinimalPricePerUnit>500</MinimalPricePerUnit>
+      <MinimalPricePerUnit>300</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
       <MaximumOfferAmount>1000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>

@@ -54,6 +54,9 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Motor" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="Computer" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="LargeTube" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
         </OrdersList>
 
         <CanSellOxygen>true</CanSellOxygen>
@@ -157,6 +160,9 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Detector" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
         </OrdersList>
         <CanSellOxygen>true</CanSellOxygen>
         <CanSellHydrogen>true</CanSellHydrogen>        
@@ -207,7 +213,10 @@
             <ItemId Type="MyObjectBuilder_Component" Subtype="Explosives" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="SolarCell" />
             <ItemId Type="MyObjectBuilder_Component" Subtype="PowerCell" />
-            <ItemId Type="MyObjectBuilder_Component" Subtype="Canvas" />     
+            <ItemId Type="MyObjectBuilder_Component" Subtype="Canvas" />   
+
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />  
         </OrdersList>        
 
         <GridsForSale>
