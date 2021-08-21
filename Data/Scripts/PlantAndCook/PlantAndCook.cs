@@ -77,7 +77,7 @@ namespace sleep
 
 					var block = player.Controller?.ControlledEntity?.Entity as IMyCubeBlock;
 					if (block != null)
-						if (block.ToString().Contains("Toilet") || block.ToString().Contains("Bathroom"))
+						if (new[] { "LargeBlockToilet", "LargeBlockBathroom", "LargeBlockBathroomOpen" }.Contains(block.BlockDefinition.SubtypeId))
 						{
 							food.Decrease(5f, null);
 							if (food.Value > 0)

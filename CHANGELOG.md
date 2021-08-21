@@ -1,3 +1,7 @@
+UPDATE 8/21/2021:
+
+- Fixed bug where Toilet was recognized by name intead of block type
+
 UPDATE 8/15/2021:
 
 - Apple, Apple Pie and Burger re-skined
