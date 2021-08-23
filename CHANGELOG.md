@@ -1,3 +1,9 @@
+UPDATE 8/23/2021:
+
+- Reduced organics ore ratio mined from grass
+- All grass types in Earth-like, Alien and Pertam now provides organics
+- Reduced amount of food in drop pods
+
 UPDATE 8/21/2021:
 
 - Fixed bug where Toilet was recognized by name intead of block type
