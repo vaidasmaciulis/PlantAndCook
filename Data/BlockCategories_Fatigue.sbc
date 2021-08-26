@@ -32,6 +32,19 @@
           <string>Assembler/Kitchen</string>
           <string>Assembler/Planters</string>
         </ItemIds>
-      </Category>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+        <Id>
+          <TypeId>GuiBlockCategoryDefinition</TypeId>
+          <SubtypeId/>
+        </Id>
+        <DisplayName>DisplayName_Category_SparksOfTheFuturePack</DisplayName>
+        <Name>SparksOfTheFutureBlocks</Name>
+        <StrictSearch>true</StrictSearch>
+        <ItemIds>
+          <string>CargoContainer/LargeBlockBarCounter</string>
+          <string>CargoContainer/LargeBlockBarCounterCorner</string>
+        </ItemIds>
+    </Category>
   </CategoryClasses>
 </Definitions>

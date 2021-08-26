@@ -1,3 +1,7 @@
+UPDATE 8/26/2021:
+
+- Bar counter blocks are made functional as containers for consumables and food products.
+
 UPDATE 8/23/2021:
 
 - Reduced organics ore ratio mined from grass

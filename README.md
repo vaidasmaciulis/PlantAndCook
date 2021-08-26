@@ -1,6 +1,7 @@
 [h1]Intro[/h1] 
 
-Planter and Kitchen blocks are made functional and allows to grow and cook food respectively. 
+Planter and Kitchen blocks are made functional and allows to grow and cook food respectively.
+Bar counter blocks are made functional as containers for consumables and food products.
 
 This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
