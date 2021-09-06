@@ -12,7 +12,8 @@ This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
 Eat packaged food from the shop or drop pods to begin with.
 Create some biomass in the bathroom like a proud spaceman that you are.
-Use it in the Planter to grow mushrooms and apples.
+Use it in the Planter to grow mushrooms
+Find apples and wheat in drop pods or shops, grow more of them in the Planter
 Use grown products in the kitchen to cook some tasty and healthy spacemade food!
 Mix in some meat from hunted wild animals if you are not into souley vegan diet.
 
@@ -20,6 +21,13 @@ Mix in some meat from hunted wild animals if you are not into souley vegan diet.
 [h2]Important![/h2]
 
 For offers to appear in Economy stations, "Plant and Cook" mod needs to be higher in list of game mods than "Eat. Drink. Sleep. Repeat!"
+
+
+[h2]FAQ[/h2]
+
+- Does this work with Daily Needs?
+
+No. This mod has entirely different implementation, no integration with Daily Needs is possible.
 
 
 [h1]Acknowledgements[/h1]
