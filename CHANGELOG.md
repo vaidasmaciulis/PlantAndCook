@@ -1,3 +1,9 @@
+UPDATE 9/6/2021:
+
+- Fixed bug where wheat was not found in drop pods
+- Reduced meat drop from animals
+- Simplified apples production, and increased mushrooms yield
+
 UPDATE 8/26/2021:
 
 - Bar counter blocks are made functional as containers for consumables and food products.
