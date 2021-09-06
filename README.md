@@ -30,6 +30,13 @@ For offers to appear in Economy stations, "Plant and Cook" mod needs to be highe
 No. This mod has entirely different implementation, no integration with Daily Needs is possible.
 
 
+[h2]Integrations[/h2]
+
+This mod is also compatible with these mods:
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
+
+
 [h1]Acknowledgements[/h1]
 
 Mod is based on Food & Fatigue mod, by John19. Kudos to him for letting me modify and republish the mod!

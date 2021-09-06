@@ -1,5 +1,9 @@
 UPDATE 9/6/2021:
 
+- Mod is now compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
+
+UPDATE 9/6/2021:
+
 - Fixed bug where wheat was not found in drop pods
 - Reduced meat drop from animals
 - Simplified apples production, and increased mushrooms yield

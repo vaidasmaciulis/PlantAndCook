@@ -19,5 +19,23 @@
                 <Component BuilderType="MyObjectBuilder_Inventory"/>
             </DefaultComponents>
         </Container>
+        <Container>
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>SmallBlockBarCounter_3223</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory"/>
+            </DefaultComponents>
+        </Container>
+        <Container>
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>SmallBlockBarCounterCorner_3223</SubtypeId>
+            </Id>
+            <DefaultComponents>
+                <Component BuilderType="MyObjectBuilder_Inventory"/>
+            </DefaultComponents>
+        </Container>
     </EntityContainers>
 </Definitions>
