@@ -50,7 +50,7 @@
                 <Item AmountMin="1" AmountMax="1">
                     <Frequency>0.1</Frequency>
                     <Id>
-                        <TypeId>ConsumableItem</TypeId>
+                        <TypeId>Ingot</TypeId>
                         <SubtypeId>Wheat</SubtypeId>
                     </Id>
                 </Item>
