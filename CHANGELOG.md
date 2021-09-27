@@ -1,3 +1,10 @@
+UPDATE 9/28/2021:
+
+- Mushroom Farm block added
+- Wheat Farm block added
+- Mushrooms now can be sold in Economy shops
+- Wheat yeald reduced in planters
+
 UPDATE 9/6/2021:
 
 - Mod is now compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
