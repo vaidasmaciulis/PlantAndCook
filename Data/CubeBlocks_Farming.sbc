@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>ShroomFarmT2</SubtypeId>
+      </Id>
+      <DisplayName>Mushroom Farm</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\ShroomFarmT2.dds</Icon>
+      <Description>Mushroom Farm</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Large\ShroomFarmT2.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="BulletproofGlass" Count="8" />
+        <Component Subtype="Construction" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.72"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.28" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.28" EndY="0.72"/>
+				<MountPoint Side="Left" StartX="0.14" StartY="0.72" EndX="0.28" EndY="0.86"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.72" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.72" StartY="0.00" EndX="1.00" EndY="0.72"/>
+				<MountPoint Side="Right" StartX="0.72" StartY="0.72" EndX="0.86" EndY="0.86"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.72"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ShroomFarmT2_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\ShroomFarmT2_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ShroomFarmT2_BS3.mwm"/>
+			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>MushroomsFarm</Class>
+      </BlueprintClasses>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>Wheatfarm</SubtypeId>
+      </Id>
+      <DisplayName>Wheat Farm</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Wheatfarm.dds</Icon>
+      <Description>Wheat Farm</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <Model>Models\Cubes\Large\Wheatfarm.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Construction" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.43" EndX="1.00" EndY="0.57"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.43" EndX="1.00" EndY="0.57"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.43" EndX="1.00" EndY="0.57"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.43" EndX="1.00" EndY="0.57"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Wheatfarm_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\Wheatfarm_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheatfarm_BS3.mwm"/>
+			</BuildProgressModels>
+			<MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>WheatFarm</Class>
+      </BlueprintClasses>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
