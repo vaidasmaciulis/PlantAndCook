@@ -276,7 +276,7 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
-      <PCU>1</PCU>
+      <PCU>10</PCU>
       <IsAirTight>false</IsAirTight>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>
@@ -327,7 +327,7 @@
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
       <BuildTimeSeconds>14</BuildTimeSeconds>
-      <PCU>1</PCU>
+      <PCU>10</PCU>
       <IsAirTight>false</IsAirTight>
       <DLC>SparksOfTheFuture</DLC>
     </Definition>

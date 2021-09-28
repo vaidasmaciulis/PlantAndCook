@@ -260,9 +260,11 @@
         <Stat Name="Health" Value="-0.05" Time="5"/>
         <Stat Name="Food" Value="0.05" Time="5"/>
       </Stats>
-      <MinimalPricePerUnit>200</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimalPricePerUnit>400</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>10</MaximumOfferAmount>
+      <MinimumOrderAmount>200</MinimumOrderAmount>
+      <MaximumOrderAmount>5000</MaximumOrderAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     

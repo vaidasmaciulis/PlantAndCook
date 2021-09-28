@@ -2,7 +2,7 @@
 
 Planter and Kitchen blocks are made functional and allows to grow and cook food respectively.
 Bar counter blocks are made functional as containers for consumables and food products.
-Wheat Farm and Mushroom Farm blocks are added. Thanks Kuvat for awsome models!
+Wheat Farm and Mushroom Farm blocks are added. Thanks Kuvat for awesome models!
 
 This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
@@ -40,7 +40,8 @@ This mod is also compatible with these mods:
 
 [h1]Acknowledgements[/h1]
 
-Farm blocks are made by Kuvat.
+Wheat and Mushroom Farm blocks are made by Kuvat. Check out his other mods:
+https://steamcommunity.com/profiles/76561198116768722/myworkshopfiles/
 
 Mod is based on Food & Fatigue mod, by John19. Kudos to him for letting me modify and republish the mod!
 

@@ -1,9 +1,14 @@
 UPDATE 9/28/2021:
 
+- Fixed bug where non-functional blocks were placed when selected with mousewheel from the decorative group
+- Meat can now be bought and sold in Economy shops
+
+UPDATE 9/28/2021:
+
 - Mushroom Farm block added
 - Wheat Farm block added
 - Mushrooms now can be sold in Economy shops
-- Wheat yeald reduced in planters
+- Wheat yield reduced in planters
 
 UPDATE 9/6/2021:
 

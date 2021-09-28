@@ -38,6 +38,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="PrlnglesChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OffersList>
 
         <OrdersList>            
@@ -58,6 +59,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Mushrooms" />  
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OrdersList>
 
         <CanSellOxygen>true</CanSellOxygen>
@@ -143,6 +145,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="PrlnglesChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OffersList>
 
         <OrdersList>
@@ -165,6 +168,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Mushrooms" />  
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OrdersList>
         <CanSellOxygen>true</CanSellOxygen>
         <CanSellHydrogen>true</CanSellHydrogen>        
@@ -192,6 +196,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="PrlnglesChips" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OffersList>
 
         <OrdersList>
@@ -220,6 +225,7 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />  
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Mushrooms" />  
+            <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OrdersList>        
 
         <GridsForSale>
