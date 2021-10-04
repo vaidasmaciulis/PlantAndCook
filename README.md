@@ -12,7 +12,7 @@ This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
 [h1]How to make food[/h1]
 
-Mine Grass on Earth/Alien/Pertam/Teal planets to get organics.
+Mine Grass on Earth/Alien/Pertam planets to get organics.
 In case you are in deep space, create some organics yourself in the bathroom like a proud spaceman that you are.
 Hunt Wolves/Spiders to get meat.
 Search Unknown Signal drops and Economy stations for wheat and apples, to use them as a seed to grow more.
@@ -38,7 +38,6 @@ No. This mod has entirely different implementation, no integration with Daily Ne
 This mod is also compatible with these mods:
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2603627657]Teal[/url]
 
 
 [h1]Acknowledgements[/h1]

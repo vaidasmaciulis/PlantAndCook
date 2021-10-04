@@ -1,9 +1,5 @@
 UPDATE 10/4/2021:
 
-- Integrated with Teal planet mod
-
-UPDATE 10/4/2021:
-
 - New Custom Kitchen skin by Kuvat is added. No need for DLC anymore.
 
 UPDATE 9/28/2021:
