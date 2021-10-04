@@ -12,6 +12,7 @@
         <ItemIds>
           <string>Assembler/ShroomFarmT2</string>
           <string>Assembler/Wheatfarm</string>
+          <string>Assembler/CustomKitchen</string>
         </ItemIds>
       </Category>
   </CategoryClasses>

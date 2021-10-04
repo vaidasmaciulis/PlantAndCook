@@ -3,20 +3,22 @@
 Planter and Kitchen blocks are made functional and allows to grow and cook food respectively.
 Bar counter blocks are made functional as containers for consumables and food products.
 Wheat Farm and Mushroom Farm blocks are added. Thanks Kuvat for awesome models!
+Custom Kitchen reskin is added. This allows to use the mod without DLC.
 
 This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2547246713]Eat. Drink. Sleep. Repeat![/url]
 
 
-[h1]How to make food in space[/h1] 
+[h1]How to make food[/h1]
 
-Eat packaged food from the shop or drop pods to begin with.
-Create some biomass in the bathroom like a proud spaceman that you are.
-Use it in the Planter to grow mushrooms
-Find apples and wheat in drop pods or shops, grow more of them in the Planter
-Use grown products in the kitchen to cook some tasty and healthy spacemade food!
-Mix in some meat from hunted wild animals if you are not into souley vegan diet.
+Mine Grass on Earth/Alien/Pertam planets to get organics.
+In case you are in deep space, create some organics yourself in the bathroom like a proud spaceman that you are.
+Hunt Wolves/Spiders to get meat.
+Search Unknown Signal drops and Economy stations for wheat and apples, to use them as a seed to grow more.
+Build Planters or Farming blocks to grow food. They work in the same way as Assemblers. See what items you need and put those to the block inventory (i.e. Ice, Organics, etc).
+Build either one of the Kitchen blocks to make food out of ingredients. These blocks also works like Assembler.
+You can sell raw food products in Economy stations. This gives a reason to farm and hunt more than you need to survive.
 
 
 [h2]Important![/h2]
@@ -40,7 +42,7 @@ This mod is also compatible with these mods:
 
 [h1]Acknowledgements[/h1]
 
-Wheat and Mushroom Farm blocks are made by Kuvat. Check out his other mods:
+Wheat and Mushroom Farm and Custom Kitchen blocks are made by Kuvat. Check out his other mods:
 https://steamcommunity.com/profiles/76561198116768722/myworkshopfiles/
 
 Mod is based on Food & Fatigue mod, by John19. Kudos to him for letting me modify and republish the mod!

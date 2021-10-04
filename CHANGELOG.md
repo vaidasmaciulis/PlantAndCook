@@ -1,3 +1,7 @@
+UPDATE 10/4/2021:
+
+- New Custom Kitchen skin by Kuvat is added. No need for DLC anymore.
+
 UPDATE 9/28/2021:
 
 - Fixed bug where non-functional blocks were placed when selected with mousewheel from the decorative group
