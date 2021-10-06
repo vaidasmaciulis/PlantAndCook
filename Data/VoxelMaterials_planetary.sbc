@@ -604,7 +604,7 @@
       <BareVariant>AlienYellowGrass bare</BareVariant>
     </VoxelMaterial>
 
-    <!-- Integration with Teal planet mod -->
+    <!-- Teal blue grass -->
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
@@ -619,14 +619,14 @@
       <IsRare>false</IsRare>
       
       <VoxelHandPreview>Textures\Voxels\Grass_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Teal\Grass\TealVoxGrass_cm.dds</ColorMetalXZnY>
+      <ColorMetalXZnY>..\2603627657\Textures\Voxels\Teal\Grass\TealVoxGrass_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Grass_ng.dds</NormalGlossXZnY>
       
 
-      <ColorMetalXZnYFar1>Textures\Voxels\Teal\Grass\TealVoxGrass_Far1_cm.dds</ColorMetalXZnYFar1>
+      <ColorMetalXZnYFar1>..\2603627657\Textures\Voxels\Teal\Grass\TealVoxGrass_Far1_cm.dds</ColorMetalXZnYFar1>
       <NormalGlossXZnYFar1>Textures\Voxels\EarthGreenGrass_Far1_ng.dds</NormalGlossXZnYFar1>
 
-      <ColorMetalXZnYFar2>Textures\Voxels\Teal\Grass\TealVoxGrass_Far2_cm.dds</ColorMetalXZnYFar2>
+      <ColorMetalXZnYFar2>..\2603627657\Textures\Voxels\Teal\Grass\TealVoxGrass_Far2_cm.dds</ColorMetalXZnYFar2>
       <NormalGlossXZnYFar2>Textures\Voxels\EarthGreenGrass_Far2_ng.dds</NormalGlossXZnYFar2>
 
       <SimpleTilingSetup>
@@ -658,16 +658,16 @@
 
       <!--Foliage-->
       <FoliageColorTextureArray>
-        <Color>Textures\Models\Environment\Grass\TealGrass_01_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_03_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_03_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_04_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_01_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_03_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_03_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_04_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
+        <Color>..\2603627657\Textures\Models\Environment\Grass\TealGrass_08_cm.dds</Color>
       </FoliageColorTextureArray>
       
       <FoliageNormalTextureArray>
@@ -692,128 +692,6 @@
 
       <ColorKey Hex="#BCBB56"/>
 
-    </VoxelMaterial>
-		
-	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
-      <Id>
-        <TypeId>VoxelMaterialDefinition</TypeId>
-        <SubtypeId>TealRocksGrass</SubtypeId>
-      </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      <MaterialTypeName>Soil</MaterialTypeName>
-      <MinedOre>Organic</MinedOre>
-      <MinedOreRatio>0.005</MinedOreRatio>
-      
-      <VoxelHandPreview>Textures\Voxels\MoonRocks_01_Thumbnail.dds</VoxelHandPreview>
-	  
-      <ColorMetalXZnY>Textures\Voxels\Teal\Soil\Rocks_Grass_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Teal\Soil\Rocks_Grass_ng.dds</NormalGlossXZnY>
-  	  <ExtXZnY>Textures\Voxels\Teal\Soil\Rocks_Grass_add.dds</ExtXZnY>
-
-      <InitialScale>4</InitialScale>
-      <ScaleMultiplier>4</ScaleMultiplier>
-      <InitialDistance>80</InitialDistance>
-      <DistanceMultiplier>1</DistanceMultiplier>
-      <TilingScale>20</TilingScale>
-      <Scale>2</Scale>
-      <Far1Distance>80</Far1Distance>
-      <Far2Distance>180</Far2Distance>
-      <Far1Scale>100</Far1Scale>
-      <Far2Scale>400</Far2Scale>
-      <Far3Distance>50000</Far3Distance>
-
-      <!--Grass-->
-      <FoliageColorTextureArray>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_04_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_03_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_02_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_01_cm.dds</Color>
-      </FoliageColorTextureArray>
-      
-      <FoliageNormalTextureArray>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_04_ng.dds</Normal>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_03_ng.dds</Normal>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_02_ng.dds</Normal>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_01_ng.dds</Normal>
-      </FoliageNormalTextureArray>
-      
-
-      <FoliageDensity>0.5</FoliageDensity>
-      <FoliageScale>
-        <X>1</X>
-        <Y>0.8</Y>
-      </FoliageScale>
-      <FoliageRandomRescaleMult>0</FoliageRandomRescaleMult>
-	  
-	  
-      <ColorKey Hex="#A4B94D"/>
-    </VoxelMaterial>
-	
-	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
-      <Id>
-        <TypeId>VoxelMaterialDefinition</TypeId>
-        <SubtypeId>TealSnowGrass</SubtypeId>
-      </Id>
-      <SpawnsInAsteroids>false</SpawnsInAsteroids>
-      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
-      <MaterialTypeName>Soil</MaterialTypeName>
-      <MinedOre>Organic</MinedOre>
-      <MinedOreRatio>0.005</MinedOreRatio>
-      
-      <VoxelHandPreview>Textures\Voxels\MoonRocks_01_Thumbnail.dds</VoxelHandPreview>
-	  
-      <ColorMetalXZnY>Textures\Voxels\Teal\TealSnowGrass\TealSnowGrass_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Teal\TealSnowGrass\TealSnowGrass_ng.dds</NormalGlossXZnY>
-  	  <ExtXZnY>Textures\Voxels\Teal\TealSnowGrass\TealSnowGrass_add.dds</ExtXZnY>
-
-      <ColorMetalXZnYFar1>Textures\Voxels\Teal\TealSnowGrass\TealSnowGrass_Far1_cm.dds</ColorMetalXZnYFar1>
-      <NormalGlossXZnYFar1>Textures\Voxels\Teal\TealSnowGrass\TealSnowGrass_ng.dds</NormalGlossXZnYFar1>
-      <ExtXZnYFar1>Textures\Voxels\Teal\TealSnowGrass\TealSnowGrass_add.dds</ExtXZnYFar1>
-	  
-      <InitialScale>10</InitialScale>
-      <ScaleMultiplier>4</ScaleMultiplier>
-      <InitialDistance>80</InitialDistance>
-      <DistanceMultiplier>1</DistanceMultiplier>
-	  <TilingScale>25</TilingScale>
-      <Scale>4</Scale>
-      <Far1Distance>30</Far1Distance>
-      <Far2Distance>250</Far2Distance>
-      <Far1Scale>100</Far1Scale>
-      <Far2Scale>400</Far2Scale>
-      <Far3Distance>3000</Far3Distance>
-      <Far3Color>
-        <X>0.2</X>
-        <Y>0.2</Y>
-        <Z>0.2</Z>
-        <W>1.0</W>
-      </Far3Color>
-
-      <!--Grass-->
-      <FoliageColorTextureArray>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_04_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_03_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_02_cm.dds</Color>
-        <Color>Textures\Models\Environment\Grass\Woods_grass_01_cm.dds</Color>
-      </FoliageColorTextureArray>
-      
-      <FoliageNormalTextureArray>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_04_ng.dds</Normal>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_03_ng.dds</Normal>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_02_ng.dds</Normal>
-        <Normal>Textures\Models\Environment\Grass\Woods_grass_01_ng.dds</Normal>
-      </FoliageNormalTextureArray>
-      
-
-      <FoliageDensity>0.2</FoliageDensity>
-      <FoliageScale>
-        <X>1</X>
-        <Y>0.8</Y>
-      </FoliageScale>
-      <FoliageRandomRescaleMult>0</FoliageRandomRescaleMult>
-	  
-	  
-      <ColorKey Hex="#A4B94D"/>
     </VoxelMaterial>
   </VoxelMaterials>
 </Definitions>
