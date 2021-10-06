@@ -67,3 +67,6 @@ https://sketchfab.com/3d-models/bread-35c647c3231b4d7ba3dfdc1d0ba4d036
 
 Wheat — FREE by Yaroslav Karas under https://creativecommons.org/licenses/by/4.0/
 https://sketchfab.com/3d-models/wheat-free-ddff74ac0661414a9478bd4d7581c854
+
+
+Mod repository in Git Hub: https://github.com/vaidasmaciulis/PlantAndCook
