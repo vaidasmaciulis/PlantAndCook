@@ -1,6 +1,7 @@
-UPDATE 10/4/2021:
+UPDATE 10/7/2021:
 
-- Integrated with Teal planet mod. Mining grass in Teal will produce organics.
+- Integrated with Teal planet mod. Mining grass in Teal will produce organics now.
+- Fixed bugs with farm blocks highlight and LOD models.
 
 UPDATE 10/4/2021:
 
