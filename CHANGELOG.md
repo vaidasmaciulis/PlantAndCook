@@ -1,3 +1,7 @@
+UPDATE 10/8/2021:
+
+- Integrated with Exolia planet mod. Mining grass in Exolia will produce organics now.
+
 UPDATE 10/7/2021:
 
 - Integrated with Teal planet mod. Mining grass in Teal will produce organics now.

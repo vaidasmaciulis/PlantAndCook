@@ -21,9 +21,17 @@ Build either one of the Kitchen blocks to make food out of ingredients. These bl
 You can sell raw food products in Economy stations. This gives a reason to farm and hunt more than you need to survive.
 
 
-[h2]Important![/h2]
+[h2]Integrations[/h2]
 
 For offers to appear in Economy stations, "Plant and Cook" mod needs to be higher in list of game mods than "Eat. Drink. Sleep. Repeat!"
+
+This mod is also compatible with these mods:
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2603627657]Teal[/url]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2122361971]Exolia[/url]
 
 
 [h2]FAQ[/h2]
@@ -31,14 +39,6 @@ For offers to appear in Economy stations, "Plant and Cook" mod needs to be highe
 - Does this work with Daily Needs?
 
 No. This mod has entirely different implementation, no integration with Daily Needs is possible.
-
-
-[h2]Integrations[/h2]
-
-This mod is also compatible with these mods:
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2603627657]Teal[/url]
 
 
 [h1]Acknowledgements[/h1]
