@@ -5,10 +5,6 @@ Bar counter blocks are made functional as containers for consumables and food pr
 Wheat Farm and Mushroom Farm blocks are added. Thanks Kuvat for awesome models!
 Custom Kitchen reskin is added. This allows to use the mod without DLC.
 
-This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2547246713]Eat. Drink. Sleep. Repeat![/url]
-
 
 [h1]How to make food[/h1]
 
@@ -23,9 +19,15 @@ You can sell raw food products in Economy stations. This gives a reason to farm 
 
 [h2]Integrations[/h2]
 
+This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2547246713]Eat. Drink. Sleep. Repeat![/url]
+
 For offers to appear in Economy stations, "Plant and Cook" mod needs to be higher in list of game mods than "Eat. Drink. Sleep. Repeat!"
 
-This mod is also compatible with these mods:
+Plant and Cook also integrates with these mods:
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2577880987]Pressurize Your Room![/url]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2230632087]Ultimate Small Grid Conversion Pack[/url]
 
@@ -33,12 +35,18 @@ This mod is also compatible with these mods:
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2122361971]Exolia[/url]
 
+Make sure "Plant and Cook" mod is above planet mods in the list, for organics to appear there.
+
 
 [h2]FAQ[/h2]
 
 - Does this work with Daily Needs?
 
 No. This mod has entirely different implementation, no integration with Daily Needs is possible.
+
+- Kitchen/Planters blocks are not functional.
+
+If you have build these blocks before adding the mod, you'll need to grind and re-build them.
 
 
 [h1]Acknowledgements[/h1]
