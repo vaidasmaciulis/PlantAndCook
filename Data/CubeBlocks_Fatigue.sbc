@@ -129,7 +129,7 @@
       </Id>
       <DisplayName>Custom Kitchen</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\CustomKitchen.dds</Icon>
-      <Description>A Custom Kitchen</Description>
+      <Description>In the Kitchen you can cook your raw Incredients found in Wildlife and grown in Planters and Farms to tasteful meals.</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>

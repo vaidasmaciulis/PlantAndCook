@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>Mushroom Farm</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\ShroomFarmT2.dds</Icon>
-      <Description>Mushroom Farm</Description>
+      <Description>The Mushroom Greenhouse maintains temperatur and humidity in a perfect level to support the growth of Mushrooms. Mushrooms can be prepared for delicious meals in the kitchen.</Description>
       <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -70,7 +70,7 @@
       </Id>
       <DisplayName>Wheat Farm</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Wheatfarm.dds</Icon>
-      <Description>Wheat Farm</Description>
+      <Description>The Wheatfarm is designed for esspecially growing Wheatcrops. Cause of this specialisation, this Farm produces a large amount of Wheat. Wheat can be processed to Bread and Cakes in the Kitchen.</Description>
       <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -124,7 +124,7 @@
       </Id>
       <DisplayName>Herb Grower</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\HerbGrower.dds</Icon>
-      <Description>Description_Planters</Description>
+      <Description>By keeping the nutrient in a perfect level, the Herb Hydroponics let grow extremly healthy Herbs.</Description>
       <CubeSize>Large</CubeSize>
         <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
