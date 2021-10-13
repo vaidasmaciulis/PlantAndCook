@@ -2,7 +2,7 @@
 
 Planter and Kitchen blocks are made functional and allows to grow and cook food respectively.
 Bar counter blocks are made functional as containers for consumables and food products.
-Wheat Farm and Mushroom Farm blocks are added. Thanks Kuvat for awesome models!
+Wheat Farm, Mushroom Farm and Herb Grower blocks are added. Thanks Kuvat for awesome models!
 Custom Kitchen reskin is added. This allows to use the mod without DLC.
 
 

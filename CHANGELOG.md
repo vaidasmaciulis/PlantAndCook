@@ -1,3 +1,12 @@
+UPDATE 10/14/2021:
+
+- Added Herb Grower block
+- Added Europa Ice Tea drink
+- Added Herbs item
+- Added Empty Tin Can item
+- Descriptions added to Farming and Kitchen blocks
+- Fixed some small issues
+
 UPDATE 10/8/2021:
 
 - Integrated with Exolia planet mod. Mining grass in Exolia will produce organics now.
