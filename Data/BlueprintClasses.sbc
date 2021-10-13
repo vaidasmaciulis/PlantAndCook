@@ -53,6 +53,19 @@
       <InputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</OutputConstraintIcon>
     </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>HerbsFarm</SubtypeId>
+      </Id>
+      <DisplayName>HerbsFarm</DisplayName>
+      <Description>HerbsFarm</Description>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</OutputConstraintIcon>
+    </Class>
   </BlueprintClasses>
   <BlueprintClassEntries>     
     <Entry Class="Farming" BlueprintSubtypeId="Mushrooms" />
@@ -65,7 +78,12 @@
     <Entry Class="Cooking" BlueprintSubtypeId="ShroomSteak" />
     <Entry Class="Cooking" BlueprintSubtypeId="Bread" />
     <Entry Class="Cooking" BlueprintSubtypeId="Burger" />
+    <Entry Class="Cooking" BlueprintSubtypeId="EuropaTea" />
     <Entry Class="MushroomsFarm" BlueprintSubtypeId="FarmedMushrooms" />
     <Entry Class="WheatFarm" BlueprintSubtypeId="FarmedWheat" />
+    <Entry Class="HerbsFarm" BlueprintSubtypeId="FarmedHerbs" />
+    <Entry Class="BasicComponents" BlueprintSubtypeId="EmptyTinCan" />
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="EmptyTinCan" />
+    <Entry Class="Components" BlueprintSubtypeId="EmptyTinCan" />
   </BlueprintClassEntries>
 </Definitions>

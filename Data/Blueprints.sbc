@@ -23,7 +23,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FarmedMushrooms</SubtypeId>
       </Id>
-      <DisplayName>FarmedMushrooms</DisplayName>
+      <DisplayName>Mushrooms</DisplayName>
       <Description>fungus of unknown origin</Description>
     <Icon>Textures\GUI\Icons\Mushrooms.png</Icon>
       <Prerequisites>
@@ -76,7 +76,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FarmedWheat</SubtypeId>
       </Id>
-      <DisplayName>FarmedWheat</DisplayName>
+      <DisplayName>Wheat</DisplayName>
       <Description>Spike of gluten-full Wheat</Description>
     <Icon>Textures\GUI\Icons\Wheat.png</Icon>
       <Prerequisites>
@@ -88,6 +88,22 @@
       <Result Amount="40" TypeId="Ingot" SubtypeId="Wheat" />
       <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
     </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FarmedHerbs</SubtypeId>
+      </Id>
+      <DisplayName>Herbs</DisplayName>
+      <Icon>Textures\GUI\Icons\Herbs.png</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Herbs" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="6" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="20" TypeId="Ingot" SubtypeId="Herbs" />
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+    </Blueprint> 
 
     <Blueprint>
       <Id>
@@ -182,5 +198,49 @@
       <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
     </Blueprint>
     
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EuropaTea</SubtypeId>
+      </Id>
+      <DisplayName>Europa Ice Tea</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\EuropaTea.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="EmptyTinCan" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Herbs" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="EuropaTea" />
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>EmptyTinCan</SubtypeId>
+      </Id>
+      <DisplayName>Empty Tin Can</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\EmptyTCan.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Iron" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="EmptyTinCan" />
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint> 
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SparklingWater</SubtypeId>
+      </Id>
+      <DisplayName>Sparkling Water</DisplayName>
+      <Icon>Textures\GUI\Icons\Items\SparklingWat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="1" TypeId="Component" SubtypeId="EmptyTinCan" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="SparklingWater" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint> 
   </Blueprints>
 </Definitions>

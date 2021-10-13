@@ -57,11 +57,11 @@
       <Icon>Textures\GUI\Icons\AppleJuice.png</Icon>
       <Size>
         <X>0.1</X>
-        <Y>0.1</Y>
+        <Y>0.4</Y>
         <Z>0.1</Z>
       </Size>
-      <Mass>0.1</Mass>
-      <Volume>0.1</Volume>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
       <Model>Models\AppleJuiceBottle.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
@@ -71,6 +71,29 @@
       <MinimumOfferAmount>1000</MinimumOfferAmount>
       <MaximumOfferAmount>10000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+        
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+        <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>EuropaTea</SubtypeId>
+        </Id>
+        <DisplayName>Europa Ice Tea</DisplayName>
+        <Description>Europa Ice Tea</Description>
+        <Icon>Textures\GUI\Icons\Items\EuropaTea.dds</Icon>
+        <Size>
+            <X>0.14</X>
+            <Y>0.43</Y>
+            <Z>0.14</Z>
+        </Size>
+        <Mass>0.5</Mass>
+        <Volume>0.5</Volume>
+        <Model>Models\Items\EuropaTea.mwm</Model>
+        <PhysicalMaterial>Metal</PhysicalMaterial>
+        <Stats>
+          <Stat Name="Health" Value="0.04" Time="5"/>
+          <Stat Name="Water" Value="0.1" Time="5"/>
+        </Stats>
     </PhysicalItem>
 
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
@@ -157,6 +180,30 @@
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     
+    <PhysicalItem>
+      <Id>
+          <TypeId>Ingot</TypeId>
+          <SubtypeId>Herbs</SubtypeId>
+      </Id>
+      <DisplayName>Herbs</DisplayName>
+      <Description>Herbs</Description>
+      <Icon>Textures\GUI\Icons\Herbs.png</Icon>
+      <Size>
+          <X>0.1</X>
+          <Y>0.1</Y>
+          <Z>0.1</Z>
+      </Size>
+      <Mass>0.1</Mass>
+      <Volume>0.3</Volume>
+      <Model>Models\Herbs.mwm</Model>
+      <PhysicalMaterial>Wood</PhysicalMaterial>
+      <MinimalPricePerUnit>70</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>10</MaximumOfferAmount>
+      <MinimumOrderAmount>1000</MinimumOrderAmount>
+      <MaximumOrderAmount>20000</MaximumOrderAmount>
+    </PhysicalItem>
+
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
@@ -320,5 +367,24 @@
       <MaximumOfferAmount>1000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem> 
+
+    <PhysicalItem>
+        <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>EmptyTinCan</SubtypeId>
+        </Id>
+        <DisplayName>Empty Tin Can</DisplayName>
+        <Description>Empty Tin Can</Description>
+        <Icon>Textures\GUI\Icons\Items\EmptyTCan.dds</Icon>
+        <Size>
+            <X>0.14</X>
+            <Y>0.43</Y>
+            <Z>0.14</Z>
+        </Size>
+        <Mass>0.01</Mass>
+        <Volume>0.5</Volume>
+        <Model>Models\Items\EmptyTCan.mwm</Model>
+        <PhysicalMaterial>Metal</PhysicalMaterial>
+    </PhysicalItem>
   </PhysicalItems>
 </Definitions>
