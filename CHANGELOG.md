@@ -1,3 +1,7 @@
+UPDATE 10/24/2021:
+
+- Any existing/added/spawned non-functional Kitchen or Planter block is now automatically replaced with functional version.
+
 UPDATE 10/23/2021:
 
 - Adjusted consumable item sizes, to fit through Small Conveyor ports

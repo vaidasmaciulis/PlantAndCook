@@ -13,9 +13,7 @@ using VRage.ObjectBuilders;
 using VRage.Utils;
 using VRageMath;
 
-// Code heavily borrowed from Bačiulis' awesome Drink Water mod. Thanks so much for pointing me towards these methods dude, very much appreciated.
-
-namespace sleep
+namespace PlantAndCook
 {
 	[MySessionComponentDescriptor(MyUpdateOrder.AfterSimulation)]
 	public class Session : MySessionComponentBase
