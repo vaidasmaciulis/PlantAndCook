@@ -1,3 +1,8 @@
+UPDATE 10/23/2021:
+
+- Adjusted consumable item sizes, to fit through Small Conveyor ports
+- Fixed Sparkling Water icon missing in Assembler.
+
 UPDATE 10/14/2021:
 
 - Added Herb Grower block

@@ -57,7 +57,7 @@
       <Icon>Textures\GUI\Icons\AppleJuice.png</Icon>
       <Size>
         <X>0.1</X>
-        <Y>0.4</Y>
+        <Y>0.2</Y>
         <Z>0.1</Z>
       </Size>
       <Mass>0.5</Mass>
@@ -82,9 +82,9 @@
         <Description>Europa Ice Tea</Description>
         <Icon>Textures\GUI\Icons\Items\EuropaTea.dds</Icon>
         <Size>
-            <X>0.14</X>
-            <Y>0.43</Y>
-            <Z>0.14</Z>
+            <X>0.1</X>
+            <Y>0.2</Y>
+            <Z>0.1</Z>
         </Size>
         <Mass>0.5</Mass>
         <Volume>0.5</Volume>
@@ -377,9 +377,9 @@
         <Description>Empty Tin Can</Description>
         <Icon>Textures\GUI\Icons\Items\EmptyTCan.dds</Icon>
         <Size>
-            <X>0.14</X>
-            <Y>0.43</Y>
-            <Z>0.14</Z>
+            <X>0.1</X>
+            <Y>0.2</Y>
+            <Z>0.1</Z>
         </Size>
         <Mass>0.01</Mass>
         <Volume>0.5</Volume>

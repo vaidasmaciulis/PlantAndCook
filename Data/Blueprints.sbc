@@ -227,20 +227,5 @@
       <Result Amount="1" TypeId="Component" SubtypeId="EmptyTinCan" />
       <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint> 
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SparklingWater</SubtypeId>
-      </Id>
-      <DisplayName>Sparkling Water</DisplayName>
-      <Icon>Textures\GUI\Icons\Items\SparklingWat.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
-        <Item Amount="1" TypeId="Component" SubtypeId="EmptyTinCan" />
-      </Prerequisites>
-      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="SparklingWater" />
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
-    </Blueprint> 
   </Blueprints>
 </Definitions>
