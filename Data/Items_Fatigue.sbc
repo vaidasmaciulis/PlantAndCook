@@ -65,7 +65,7 @@
       <Model>Models\AppleJuiceBottle.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Water" Value="0.25" Time="2"/>
+        <Stat Name="Health" Value="0.1" Time="2"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -91,8 +91,8 @@
         <Model>Models\Items\EuropaTea.mwm</Model>
         <PhysicalMaterial>Metal</PhysicalMaterial>
         <Stats>
-          <Stat Name="Health" Value="0.04" Time="5"/>
-          <Stat Name="Water" Value="0.1" Time="5"/>
+          <Stat Name="Health" Value="0.1" Time="2"/>
+          <Stat Name="Energy" Value="0.1" Time="2"/>
         </Stats>
     </PhysicalItem>
 
@@ -114,8 +114,7 @@
       <Model>Models\Consumables\Mushrooms.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="-0.01" Time="5"/>
-        <Stat Name="Food" Value="0.05" Time="2"/>
+        <Stat Name="Health" Value="0.05" Time="1"/>
       </Stats>
       <MinimalPricePerUnit>10</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
@@ -143,8 +142,7 @@
       <Model>Models\Apple.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.01" Time="1"/>
-        <Stat Name="Food" Value="0.05" Time="1"/>
+        <Stat Name="Health" Value="-0.05" Time="1"/>
       </Stats>
       <MinimalPricePerUnit>100</MinimalPricePerUnit>
       <MinimumOfferAmount>1</MinimumOfferAmount>
@@ -222,7 +220,7 @@
       <Model>Models\Bread.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Food" Value="0.05" Time="3"/>
+        <Stat Name="Health" Value="0.05" Time="2"/>
       </Stats>
       <IconSymbol></IconSymbol>
       <MinimalPricePerUnit>200</MinimalPricePerUnit>
@@ -249,8 +247,7 @@
       <Model>Models\Burger.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.02" Time="10"/>
-        <Stat Name="Food" Value="0.1" Time="10"/>
+        <Stat Name="Health" Value="0.1" Time="6"/>
       </Stats>
       <IconSymbol></IconSymbol>
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
@@ -277,8 +274,7 @@
       <Model>Models\ApplePie.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Sleep" Value="-0.01" Time="5"/>
-        <Stat Name="Food" Value="0.1" Time="7"/>
+        <Stat Name="Health" Value="0.1" Time="4"/>
       </Stats>
       <MinimalPricePerUnit>500</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
@@ -304,8 +300,7 @@
       <Model>Models\Consumables\Meat.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="-0.05" Time="5"/>
-        <Stat Name="Food" Value="0.05" Time="5"/>
+        <Stat Name="Health" Value="-0.05" Time="3"/>
       </Stats>
       <MinimalPricePerUnit>400</MinimalPricePerUnit>
       <MinimumOfferAmount>1</MinimumOfferAmount>
@@ -333,7 +328,7 @@
       <Model>Models\Consumables\MeatRoasted.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Food" Value="0.05" Time="5"/>
+        <Stat Name="Health" Value="0.05" Time="3"/>
       </Stats>
       <MinimalPricePerUnit>300</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
@@ -359,8 +354,7 @@
       <Model>Models\Consumables\ShroomSteak.mwm</Model>
       <PhysicalMaterial>None</PhysicalMaterial>
       <Stats>
-        <Stat Name="Health" Value="0.02" Time="10"/>
-        <Stat Name="Food" Value="0.1" Time="10"/>
+        <Stat Name="Health" Value="0.1" Time="6"/>
       </Stats>
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
       <MinimumOfferAmount>100</MinimumOfferAmount>
