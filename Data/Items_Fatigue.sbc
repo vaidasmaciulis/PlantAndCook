@@ -92,7 +92,6 @@
         <PhysicalMaterial>Metal</PhysicalMaterial>
         <Stats>
           <Stat Name="Health" Value="0.1" Time="2"/>
-          <Stat Name="Energy" Value="0.1" Time="2"/>
         </Stats>
     </PhysicalItem>
 
