@@ -1,7 +1,7 @@
 [h1]Intro[/h1] 
 
-This is No Script version of Pant and Cook mod.
-It is not integrated with Eat.Sleep.Drink.Repeat! stats mechanics. You can still grow, make and consume food, but it will only restore health.
+This is No Script version of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2570427696]Plant and Cook[/url] mod.
+It is not integrated with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2547246713]Eat.Sleep.Drink.Repeat![/url] stats mechanics. You can still grow, make and consume food, but it will only restore health.
 
 Planter and Kitchen blocks are made functional and allows to grow and cook food respectively.
 Bar counter blocks are made functional as containers for consumables and food products.
