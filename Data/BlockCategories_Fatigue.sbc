@@ -11,13 +11,16 @@
       <SearchBlocks>false</SearchBlocks>
       <IsToolCategory>true</IsToolCategory>
       <ItemIds>
-        <string>AppleJuice</string>
-        <string>Mushrooms</string>
         <string>Apple</string>
+        <string>AppleJuice</string>
         <string>ApplePie</string>
         <string>Meat</string>
         <string>MeatRoasted</string>
+        <string>Mushrooms</string>
         <string>ShroomSteak</string>
+        <string>Bread</string>
+        <string>Burger</string>
+        <string>EuropaTea</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">

@@ -46,33 +46,7 @@
 <!-- Physical Items -->
   
   <PhysicalItems>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>AppleJuice</SubtypeId>
-      </Id>
-      <DisplayName>Apple Juice</DisplayName>
-      <Description>a refreshing drink</Description>
-      <Icon>Textures\GUI\Icons\AppleJuice.png</Icon>
-      <Size>
-        <X>0.1</X>
-        <Y>0.2</Y>
-        <Z>0.1</Z>
-      </Size>
-      <Mass>0.5</Mass>
-      <Volume>0.5</Volume>
-      <Model>Models\AppleJuiceBottle.mwm</Model>
-      <PhysicalMaterial>None</PhysicalMaterial>
-      <Stats>
-        <Stat Name="Water" Value="0.25" Time="2"/>
-      </Stats>
-      <MinimalPricePerUnit>100</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>
-        
+    
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
         <Id>
             <TypeId>ConsumableItem</TypeId>
@@ -95,35 +69,6 @@
           <Stat Name="Water" Value="0.1" Time="5"/>
         </Stats>
     </PhysicalItem>
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>Mushrooms</SubtypeId>
-      </Id>
-      <DisplayName>Mushrooms</DisplayName>
-      <Description>fungi of unknown origin</Description>
-      <Icon>Textures\GUI\Icons\Mushrooms.png</Icon>
-      <Size>
-        <X>0.05</X>
-        <Y>0.05</Y>
-        <Z>0.05</Z>
-      </Size>
-      <Mass>0.25</Mass>
-      <Volume>0.25</Volume>
-      <Model>Models\Consumables\Mushrooms.mwm</Model>
-      <PhysicalMaterial>None</PhysicalMaterial>
-      <Stats>
-        <Stat Name="Health" Value="-0.01" Time="5"/>
-        <Stat Name="Food" Value="0.05" Time="2"/>
-      </Stats>
-      <MinimalPricePerUnit>10</MinimalPricePerUnit>
-      <MinimumOfferAmount>1000</MinimumOfferAmount>
-      <MaximumOfferAmount>10000</MaximumOfferAmount>
-      <MinimumOrderAmount>1000</MinimumOrderAmount>
-      <MaximumOrderAmount>20000</MaximumOrderAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem>     
             
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
@@ -153,6 +98,59 @@
       <MaximumOrderAmount>20000</MaximumOrderAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
+    
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>AppleJuice</SubtypeId>
+      </Id>
+      <DisplayName>Apple Juice</DisplayName>
+      <Description>a refreshing drink</Description>
+      <Icon>Textures\GUI\Icons\AppleJuice.png</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.2</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\AppleJuiceBottle.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Water" Value="0.25" Time="2"/>
+      </Stats>
+      <MinimalPricePerUnit>100</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>ApplePie</SubtypeId>
+      </Id>
+      <DisplayName>Apple Pie</DisplayName>
+      <Description>a delicious snack, high in carbs</Description>
+      <Icon>Textures\GUI\Icons\ApplePie.png</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\ApplePie.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Sleep" Value="-0.01" Time="5"/>
+        <Stat Name="Food" Value="0.1" Time="7"/>
+      </Stats>
+      <MinimalPricePerUnit>500</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>1000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem> 
     
     <PhysicalItem>
       <Id>
@@ -262,33 +260,6 @@
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
-        <SubtypeId>ApplePie</SubtypeId>
-      </Id>
-      <DisplayName>Apple Pie</DisplayName>
-      <Description>a delicious snack, high in carbs</Description>
-      <Icon>Textures\GUI\Icons\ApplePie.png</Icon>
-      <Size>
-        <X>0.05</X>
-        <Y>0.05</Y>
-        <Z>0.05</Z>
-      </Size>
-      <Mass>0.25</Mass>
-      <Volume>0.25</Volume>
-      <Model>Models\ApplePie.mwm</Model>
-      <PhysicalMaterial>None</PhysicalMaterial>
-      <Stats>
-        <Stat Name="Sleep" Value="-0.01" Time="5"/>
-        <Stat Name="Food" Value="0.1" Time="7"/>
-      </Stats>
-      <MinimalPricePerUnit>500</MinimalPricePerUnit>
-      <MinimumOfferAmount>100</MinimumOfferAmount>
-      <MaximumOfferAmount>1000</MaximumOfferAmount>
-      <CanPlayerOrder>true</CanPlayerOrder>
-    </PhysicalItem> 
-
-    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
-      <Id>
-        <TypeId>ConsumableItem</TypeId>
         <SubtypeId>Meat</SubtypeId>
       </Id>
       <DisplayName>Meat</DisplayName>
@@ -341,6 +312,35 @@
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem> 
     
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>Mushrooms</SubtypeId>
+      </Id>
+      <DisplayName>Mushrooms</DisplayName>
+      <Description>fungi of unknown origin</Description>
+      <Icon>Textures\GUI\Icons\Mushrooms.png</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\Consumables\Mushrooms.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Health" Value="-0.01" Time="5"/>
+        <Stat Name="Food" Value="0.05" Time="2"/>
+      </Stats>
+      <MinimalPricePerUnit>10</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <MinimumOrderAmount>1000</MinimumOrderAmount>
+      <MaximumOrderAmount>20000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>   
+
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
