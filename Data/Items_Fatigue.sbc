@@ -141,9 +141,9 @@
       <Description>It is always autumn somewhere in the universe</Description>
       <Icon>Textures\GUI\Icons\Pumpkin.png</Icon>
       <Size>
-        <X>0.1</X>
-        <Y>0.1</Y>
-        <Z>0.1</Z>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
       </Size>
       <Mass>1.0</Mass>
       <Volume>1.0</Volume>
