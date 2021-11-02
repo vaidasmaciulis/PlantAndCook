@@ -49,10 +49,28 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
         <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
       </Prerequisites>
-      <Result Amount="10" TypeId="ConsumableItem" SubtypeId="Apple" />
+      <Result Amount="5" TypeId="ConsumableItem" SubtypeId="Apple" />
       <BaseProductionTimeInSeconds>2000</BaseProductionTimeInSeconds>
     </Blueprint>
     
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FarmedApples</SubtypeId>
+      </Id>
+      <DisplayName>Apple</DisplayName>
+      <Description>a space-grown version of the red fruit</Description>
+    <Icon>Textures\GUI\Icons\Apple.png</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Apple" />
+        <Item Amount="2" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="6" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="20" TypeId="ConsumableItem" SubtypeId="Apple" />
+      <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>

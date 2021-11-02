@@ -11,6 +11,7 @@
         <StrictSearch>true</StrictSearch>
         <ItemIds>
           <string>Assembler/ShroomFarmT2</string>
+          <string>Assembler/Applefarm</string>
           <string>Assembler/Wheatfarm</string>
           <string>Assembler/CustomKitchen</string>
           <string>Assembler/HerbGrower</string>

@@ -192,5 +192,60 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
     </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+			<Id>
+				<TypeId>Assembler</TypeId>
+				<SubtypeId>Applefarm</SubtypeId>
+			</Id>
+			<DisplayName>Apple Farm</DisplayName>
+			<Description>The Applefarm is designed for growing Appletrees in a special way. By let the appletree grow as a one single trunk, the tree let grow a large amount of apples and it doesn't need a huge amount of space, what is perfect for in space.</Description>
+			<Icon>Textures\GUI\Icons\Cubes\Applefarm.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\Large\Applefarm.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Construction" Count="10" />
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.15"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.15"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.15"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.15"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Applefarm_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\Applefarm_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Applefarm_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>Applefarm</BlockPairName>
+			<MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.0001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>AppleFarm</Class>
+      </BlueprintClasses>
+      <PCU>100</PCU>
+      <IsAirTight>false</IsAirTight>
+		</Definition>
   </CubeBlocks>
 </Definitions>
