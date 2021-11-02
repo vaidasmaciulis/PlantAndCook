@@ -39,6 +39,8 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Soya" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Pumpkin" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OffersList>
@@ -61,6 +63,8 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Soya" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Pumpkin" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Mushrooms" />  
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
@@ -150,6 +154,8 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Soya" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Pumpkin" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OffersList>
@@ -174,6 +180,8 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Soya" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Pumpkin" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Mushrooms" />  
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
@@ -205,6 +213,8 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Soya" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Pumpkin" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
         </OffersList>
@@ -235,6 +245,8 @@
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Apple" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Wheat" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Soya" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Pumpkin" />
+            <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Mushrooms" />  
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />

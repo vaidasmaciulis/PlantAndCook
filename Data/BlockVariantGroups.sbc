@@ -27,6 +27,7 @@
             <Blocks>
                 <Block Type="MyObjectBuilder_Assembler" Subtype="ShroomFarmT2" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Applefarm" />
+                <Block Type="MyObjectBuilder_Assembler" Subtype="VegetableGrower" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Wheatfarm" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Soya_Farm" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="HerbGrower" />

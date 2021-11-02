@@ -12,6 +12,7 @@
         <ItemIds>
           <string>Assembler/ShroomFarmT2</string>
           <string>Assembler/Applefarm</string>
+          <string>Assembler/VegetableGrower</string>
           <string>Assembler/Wheatfarm</string>
           <string>Assembler/Soya_Farm</string>
           <string>Assembler/CustomKitchen</string>

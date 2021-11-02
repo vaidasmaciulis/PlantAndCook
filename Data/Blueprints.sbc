@@ -39,6 +39,42 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FarmedPumpkin</SubtypeId>
+      </Id>
+      <DisplayName>Pumpkin</DisplayName>
+      <Description>It is always autumn somewhere in the universe</Description>
+    <Icon>Textures\GUI\Icons\Pumpkin.png</Icon>
+      <Prerequisites>
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Pumpkin" />
+        <Item Amount="4" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="8" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="10" TypeId="Ingot" SubtypeId="Pumpkin" />
+      <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
+    </Blueprint>
+        
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>FarmedCabbage</SubtypeId>
+      </Id>
+      <DisplayName>Cabbage</DisplayName>
+      <Description>Just a plain, old, space grown cabbage. Nothing special about it.</Description>
+    <Icon>Textures\GUI\Icons\Cabbage.png</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Cabbage" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="8" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="12" TypeId="Ingot" SubtypeId="Cabbage" />
+      <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FarmedWheat</SubtypeId>
       </Id>
       <DisplayName>Wheat</DisplayName>
@@ -151,6 +187,26 @@
         <Item Amount="2" TypeId="ConsumableItem" SubtypeId="MeatRoasted" />
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Burger" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Soup</SubtypeId>
+      </Id>
+      <DisplayName>Soup</DisplayName>
+      <Description>Delicious, filling and healthy. Real super-food.</Description>
+    <Icon>Textures\GUI\Icons\Soup.png</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="2" TypeId="ConsumableItem" SubtypeId="Meat" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Cabbage" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Pumpkin" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Soya" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Herbs" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Soup" />
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
 

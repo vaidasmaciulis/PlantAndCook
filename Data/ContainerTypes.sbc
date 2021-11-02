@@ -67,6 +67,22 @@
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>Ingot</TypeId>
+                        <SubtypeId>Pumpkin</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.1</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Cabbage</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.1</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
                         <SubtypeId>Herbs</SubtypeId>
                     </Id>
                 </Item>
