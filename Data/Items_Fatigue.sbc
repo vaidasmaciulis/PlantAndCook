@@ -131,7 +131,33 @@
       <MaximumOrderAmount>20000</MaximumOrderAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
-    
+        
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Soya</SubtypeId>
+      </Id>
+      <DisplayName>Soya Beans</DisplayName>
+      <Description>A handful of Soya Beans</Description>
+      <Icon>Textures\GUI\Icons\SoyaBeans.png</Icon>
+      <Size>
+        <X>0.01</X>
+        <Y>0.02</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.01</Volume>
+      <Model>Models\Soya.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <IconSymbol></IconSymbol>
+      <MinimalPricePerUnit>100</MinimalPricePerUnit>
+      <MinimumOfferAmount>1</MinimumOfferAmount>
+      <MaximumOfferAmount>10</MaximumOfferAmount>
+      <MinimumOrderAmount>1000</MinimumOrderAmount>
+      <MaximumOrderAmount>20000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
     <PhysicalItem>
       <Id>
           <TypeId>Ingot</TypeId>
@@ -266,6 +292,32 @@
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem> 
     
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>Tofu</SubtypeId>
+      </Id>
+      <DisplayName>Tofu</DisplayName>
+      <Description>When you are in a planet, that has no meet running around.</Description>
+      <Icon>Textures\GUI\Icons\Tofu.png</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>0.25</Mass>
+      <Volume>0.25</Volume>
+      <Model>Models\Consumables\Tofu.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Food" Value="0.05" Time="4"/>
+      </Stats>
+      <MinimalPricePerUnit>200</MinimalPricePerUnit>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>1000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem> 
+
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>

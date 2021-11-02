@@ -69,6 +69,19 @@
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Soya_Farm</SubtypeId>
+      </Id>
+      <DisplayName>Soya_Farm</DisplayName>
+      <Description>Soya_Farm</Description>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>HerbsFarm</SubtypeId>
       </Id>
       <DisplayName>HerbsFarm</DisplayName>
@@ -87,6 +100,7 @@
     <Entry Class="Farming" BlueprintSubtypeId="Wheat" />
     <Entry Class="Cooking" BlueprintSubtypeId="AppleJuice" />
     <Entry Class="Cooking" BlueprintSubtypeId="ApplePie" />
+    <Entry Class="Cooking" BlueprintSubtypeId="Tofu" />
     <Entry Class="Cooking" BlueprintSubtypeId="MeatRoasted" />
     <Entry Class="Cooking" BlueprintSubtypeId="ShroomSteak" />
     <Entry Class="Cooking" BlueprintSubtypeId="Bread" />
@@ -95,6 +109,7 @@
     <Entry Class="MushroomsFarm" BlueprintSubtypeId="FarmedMushrooms" />
     <Entry Class="AppleFarm" BlueprintSubtypeId="FarmedApples" />
     <Entry Class="WheatFarm" BlueprintSubtypeId="FarmedWheat" />
+    <Entry Class="Soya_Farm" BlueprintSubtypeId="FarmedSoya" />
     <Entry Class="HerbsFarm" BlueprintSubtypeId="FarmedHerbs" />
     <Entry Class="BasicComponents" BlueprintSubtypeId="EmptyTinCan" />
     <Entry Class="SimpleComponents" BlueprintSubtypeId="EmptyTinCan" />
