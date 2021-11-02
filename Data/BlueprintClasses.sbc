@@ -94,10 +94,8 @@
     </Class>
   </BlueprintClasses>
   <BlueprintClassEntries>     
-    <Entry Class="Farming" BlueprintSubtypeId="Mushrooms" />
-    <Entry Class="Farming" BlueprintSubtypeId="Apple" />
-    <Entry Class="Farming" BlueprintSubtypeId="Sapling" />
-    <Entry Class="Farming" BlueprintSubtypeId="Wheat" />
+    <Entry Class="Farming" BlueprintSubtypeId="Soya" />
+    <Entry Class="Farming" BlueprintSubtypeId="Herbs" />
     <Entry Class="Cooking" BlueprintSubtypeId="AppleJuice" />
     <Entry Class="Cooking" BlueprintSubtypeId="ApplePie" />
     <Entry Class="Cooking" BlueprintSubtypeId="Tofu" />

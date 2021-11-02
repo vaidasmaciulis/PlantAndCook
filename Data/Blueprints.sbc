@@ -4,23 +4,6 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Mushrooms</SubtypeId>
-      </Id>
-      <DisplayName>Mushrooms</DisplayName>
-      <Description>fungus of unknown origin</Description>
-    <Icon>Textures\GUI\Icons\Mushrooms.png</Icon>
-      <Prerequisites>
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
-      </Prerequisites>
-      <Result Amount="5" TypeId="ConsumableItem" SubtypeId="Mushrooms" />
-      <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FarmedMushrooms</SubtypeId>
       </Id>
       <DisplayName>Mushrooms</DisplayName>
@@ -38,24 +21,6 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Apple</SubtypeId>
-      </Id>
-      <DisplayName>Apple</DisplayName>
-      <Description>a space-grown version of the red fruit</Description>
-    <Icon>Textures\GUI\Icons\Apple.png</Icon>
-      <Prerequisites>
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Apple" />
-        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
-      </Prerequisites>
-      <Result Amount="5" TypeId="ConsumableItem" SubtypeId="Apple" />
-      <BaseProductionTimeInSeconds>2000</BaseProductionTimeInSeconds>
-    </Blueprint>
-    
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FarmedApples</SubtypeId>
       </Id>
       <DisplayName>Apple</DisplayName>
@@ -69,24 +34,6 @@
       </Prerequisites>
       <Result Amount="20" TypeId="ConsumableItem" SubtypeId="Apple" />
       <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
-    </Blueprint>
-
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>Wheat</SubtypeId>
-      </Id>
-      <DisplayName>Wheat</DisplayName>
-      <Description>Spike of gluten-full Wheat</Description>
-    <Icon>Textures\GUI\Icons\Wheat.png</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Ingot" SubtypeId="Wheat" />
-        <Item Amount="8" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
-        <Item Amount="4" TypeId="Ore" SubtypeId="Ice" />
-      </Prerequisites>
-      <Result Amount="10" TypeId="Ingot" SubtypeId="Wheat" />
-      <BaseProductionTimeInSeconds>2000</BaseProductionTimeInSeconds>
     </Blueprint>
     
     <Blueprint>
@@ -110,6 +57,24 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Soya</SubtypeId>
+      </Id>
+      <DisplayName>Soya Beans</DisplayName>
+      <Description>A handful of Soya Beans</Description>
+    <Icon>Textures\GUI\Icons\SoyaBeans.png</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Soya" />
+        <Item Amount="8" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="4" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="8" TypeId="Ingot" SubtypeId="Soya" />
+      <BaseProductionTimeInSeconds>2000</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>FarmedSoya</SubtypeId>
       </Id>
       <DisplayName>Soya Beans</DisplayName>
@@ -124,6 +89,23 @@
       <Result Amount="30" TypeId="Ingot" SubtypeId="Soya" />
       <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
     </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Herbs</SubtypeId>
+      </Id>
+      <DisplayName>Herbs</DisplayName>
+      <Icon>Textures\GUI\Icons\Herbs.png</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Herbs" />
+        <Item Amount="4" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="0.5" TypeId="Ore" SubtypeId="Organic" />
+        <Item Amount="3" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="5" TypeId="Ingot" SubtypeId="Herbs" />
+      <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>
+    </Blueprint> 
 
     <Blueprint>
       <Id>
