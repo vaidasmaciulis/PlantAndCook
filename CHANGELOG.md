@@ -1,6 +1,7 @@
 UPDATE 11/5/2021:
 
 - Fixed Apple Farm build state models
+- Pumpkin size increased
 
 UPDATE 11/2/2021:
 
