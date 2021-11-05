@@ -59,6 +59,30 @@
                     <Frequency>0.1</Frequency>
                     <Id>
                         <TypeId>Ingot</TypeId>
+                        <SubtypeId>Soya</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.1</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Pumpkin</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.1</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
+                        <SubtypeId>Cabbage</SubtypeId>
+                    </Id>
+                </Item>
+
+                <Item AmountMin="1" AmountMax="1">
+                    <Frequency>0.1</Frequency>
+                    <Id>
+                        <TypeId>Ingot</TypeId>
                         <SubtypeId>Herbs</SubtypeId>
                     </Id>
                 </Item>
@@ -150,6 +174,38 @@
                         <TypeId>PhysicalGunObject</TypeId>
                         <SubtypeId>Welder2Item</SubtypeId>
                     </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>SpiderLoot</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="1" AmountMax="2">
+                <Frequency>1.0</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Meat</SubtypeId>
+                </Id>
+                </Item>
+            </Items>
+        </ContainerType>
+        
+        <ContainerType CountMin="1" CountMax="1">
+            <Id>
+                <TypeId>ContainerTypeDefinition</TypeId>
+                <SubtypeId>WolfLoot</SubtypeId>
+            </Id>
+            <Items>
+                <Item AmountMin="5" AmountMax="10">
+                <Frequency>1.0</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Meat</SubtypeId>
+                </Id>
                 </Item>
             </Items>
         </ContainerType>

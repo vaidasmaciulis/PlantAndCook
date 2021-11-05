@@ -13,6 +13,22 @@
                     <TypeId>Ingot</TypeId>
                     <SubtypeId>Wheat</SubtypeId>
                 </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Soya</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Pumpkin</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Cabbage</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Herbs</SubtypeId>
+                </Entry>
             </InputConstraint>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -26,6 +42,22 @@
                 <Entry>
                     <TypeId>Ingot</TypeId>
                     <SubtypeId>Wheat</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Soya</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Pumpkin</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Cabbage</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Herbs</SubtypeId>
                 </Entry>
             </InputConstraint>
         </EntityComponent>
@@ -41,6 +73,22 @@
                     <TypeId>Ingot</TypeId>
                     <SubtypeId>Wheat</SubtypeId>
                 </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Soya</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Pumpkin</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Cabbage</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Herbs</SubtypeId>
+                </Entry>
             </InputConstraint>
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -54,6 +102,22 @@
                 <Entry>
                     <TypeId>Ingot</TypeId>
                     <SubtypeId>Wheat</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Soya</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Pumpkin</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Cabbage</SubtypeId>
+                </Entry>
+                <Entry>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Herbs</SubtypeId>
                 </Entry>
             </InputConstraint>
         </EntityComponent>
