@@ -1,3 +1,7 @@
+UPDATE 12/5/2021:
+
+- Bug fix: Europa Ice Tea can now be added to Vending Machine as an offer.
+
 UPDATE 11/5/2021:
 
 - Fixed Apple Farm build state models
