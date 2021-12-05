@@ -22,6 +22,10 @@
           <Stat Name="Health" Value="0.04" Time="5"/>
           <Stat Name="Water" Value="0.1" Time="5"/>
         </Stats>
+        <MinimalPricePerUnit>150</MinimalPricePerUnit>
+        <MinimumOfferAmount>10</MinimumOfferAmount>
+        <MaximumOfferAmount>100</MaximumOfferAmount>
+        <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
             
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
