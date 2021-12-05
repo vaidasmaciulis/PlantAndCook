@@ -38,6 +38,8 @@ Plant and Cook also integrates with these mods:
 
 Make sure "Plant and Cook" mod is above planet mods in the list, for organics to appear there.
 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2647915310]Life'Tech-Algaetechnology (Eng/De/Es)[/url]
+
 
 [h2]FAQ[/h2]
 
@@ -52,7 +54,7 @@ If you have build these blocks before adding the mod, you'll need to grind and r
 
 [h1]Acknowledgements[/h1]
 
-Wheat and Mushroom Farm and Custom Kitchen blocks are made by Kuvat. Check out his other mods:
+Custom Kitchen and all Farm blocks are made by Kuvat. Check out his other mods:
 https://steamcommunity.com/profiles/76561198116768722/myworkshopfiles/
 
 Mod is based on Food & Fatigue mod, by John19. Kudos to him for letting me modify and republish the mod!
