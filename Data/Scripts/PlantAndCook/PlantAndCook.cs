@@ -47,12 +47,15 @@ namespace PlantAndCook
 
 					var block = player.Controller?.ControlledEntity?.Entity as IMyCubeBlock;
 					if (block != null)
-						if (block.BlockDefinition.SubtypeId.Contains("Toilet") || block.BlockDefinition.SubtypeId.Contains("Bathroom"))
+					{
+						string subtypeId = block.BlockDefinition.SubtypeId.ToLower();
+						if (subtypeId.Contains("toilet") || subtypeId.Contains("bathroom"))
 						{
 							food.Decrease(5f, null);
 							if (food.Value > 0)
 								player.Character.GetInventory(0).AddItems((MyFixedPoint)0.05f, (MyObjectBuilder_PhysicalObject)MyObjectBuilderSerializer.CreateNewObject(new MyDefinitionId(typeof(MyObjectBuilder_Ore), "Organic")));
 						}
+					}
 				}
 			}
 			catch (Exception ex)

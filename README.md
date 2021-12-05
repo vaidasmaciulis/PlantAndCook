@@ -9,8 +9,10 @@ No Script version is [url=https://steamcommunity.com/sharedfiles/filedetails/?id
 
 [h1]How to make food[/h1]
 
-Mine Grass on Earth/Alien/Pertam/Teal planets to get organics.
+Make can of water in Assembler or Emergency Ration Production Unit using Iron and Ice.
+Mine Grass on Earth/Alien/Pertam and some modded planets to get organics.
 In case you are in deep space, create some organics yourself in the bathroom like a proud spaceman that you are.
+(If you do not have DLC with a bathroom, add another mod that has funcional toilet, I.e. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841717947]MA Admiral Suite[/url])
 Hunt Wolves/Spiders to get meat.
 Search Unknown Signal drops and Economy stations for wheat, apples, etc to use them as a seed to grow more.
 Build Planters or Farming blocks to grow food. They work in the same way as Assemblers. See what items you need and put those to the block inventory (i.e. Ice, Organics, etc).
@@ -24,7 +26,7 @@ This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2547246713]Eat. Drink. Sleep. Repeat![/url]
 
-For offers to appear in Economy stations, "Plant and Cook" mod needs to be higher in list of game mods than "Eat. Drink. Sleep. Repeat!"
+For offers to appear in Economy stations and drop pods, [b]"Plant and Cook" mod needs to be higher in list of game mods than "Eat. Drink. Sleep. Repeat!"[/b]
 
 Plant and Cook also integrates with these mods:
 
@@ -40,16 +42,16 @@ Make sure "Plant and Cook" mod is above planet mods in the list, for organics to
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2647915310]Life'Tech-Algaetechnology (Eng/De/Es)[/url]
 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841717947]MA Admiral Suite[/url]
+
+Check collection for other mods that are compatible.
+
 
 [h2]FAQ[/h2]
 
 - Does this work with Daily Needs?
 
 No. This mod has entirely different implementation, no integration with Daily Needs is possible.
-
-- Kitchen/Planters blocks are not functional.
-
-If you have build these blocks before adding the mod, you'll need to grind and re-build them.
 
 
 [h1]Acknowledgements[/h1]

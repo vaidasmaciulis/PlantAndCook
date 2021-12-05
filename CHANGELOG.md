@@ -1,5 +1,9 @@
 UPDATE 12/5/2021:
 
+- Made compatible with Toilet from MA Admiral Suite mod
+
+UPDATE 12/5/2021:
+
 - Bug fix: Europa Ice Tea can now be added to Vending Machine as an offer.
 
 UPDATE 11/5/2021:
