@@ -781,6 +781,58 @@
 
       <ColorKey Hex="#BCBB56"/>
     </VoxelMaterial>
+	
+	
+	
+	<!-- Planet Crait v0.9 Better Stones https://steamcommunity.com/sharedfiles/filedetails/?id=2678795825 -->
+	<VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Redsand</SubtypeId>
+      </Id>
+      <SpawnsInAsteroids>false</SpawnsInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <MaterialTypeName>Redsand</MaterialTypeName>
+      <MinedOre>Organic</MinedOre>
+      <MinedOreRatio>0.01</MinedOreRatio>
+      <CanBeHarvested>true</CanBeHarvested>
+      <IsRare>false</IsRare>
+
+      <VoxelHandPreview>Textures\Voxels\Woods_grass_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>..\2678795825\Textures\Voxels\Alien\AlienSand_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>..\2678795825\Textures\Voxels\Alien\AlienSand_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Dummy_add.dds</ExtXZnY>
+
+  
+
+      <SimpleTilingSetup>
+        <ExtDetailScale>0.005</ExtDetailScale>
+        <Scale>2</Scale>
+        <InitialScale>2</InitialScale>
+        <ScaleMultiplier>4</ScaleMultiplier>
+        <InitialDistance>4</InitialDistance>
+
+      </SimpleTilingSetup>
+
+      <ExtDetailScale>0.005</ExtDetailScale>   
+      <Scale>2</Scale>
+      <InitialScale>2</InitialScale>
+      <ScaleMultiplier>7</ScaleMultiplier>
+      <InitialDistance>4</InitialDistance>
+
+      <Far1Distance>100</Far1Distance>
+      <Far1Scale>150</Far1Scale>  
+      <Far2Distance>300</Far2Distance>
+      <Far2Scale>1200</Far2Scale>
+
+
+    
+
+
+      <DamagedMaterial>Redsand</DamagedMaterial>
+
+      <ColorKey Hex="#BCBB56"/>
+    </VoxelMaterial>
 
   </VoxelMaterials>
 </Definitions>
