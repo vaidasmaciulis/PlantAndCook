@@ -1,3 +1,7 @@
+UPDATE 12/27/2021:
+
+- Fixed crash when shooting at Empty Tin Can
+
 UPDATE 12/5/2021:
 
 - Made compatible with Toilet from MA Admiral Suite mod
