@@ -458,24 +458,5 @@
       <MaximumOfferAmount>1000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem> 
-
-    <PhysicalItem>
-        <Id>
-            <TypeId>Component</TypeId>
-            <SubtypeId>EmptyTinCan</SubtypeId>
-        </Id>
-        <DisplayName>Empty Tin Can</DisplayName>
-        <Description>Empty Tin Can</Description>
-        <Icon>Textures\GUI\Icons\Items\EmptyTCan.dds</Icon>
-        <Size>
-            <X>0.1</X>
-            <Y>0.2</Y>
-            <Z>0.1</Z>
-        </Size>
-        <Mass>0.01</Mass>
-        <Volume>0.5</Volume>
-        <Model>Models\Items\EmptyTCan.mwm</Model>
-        <PhysicalMaterial>Metal</PhysicalMaterial>
-    </PhysicalItem>
   </PhysicalItems>
 </Definitions>
