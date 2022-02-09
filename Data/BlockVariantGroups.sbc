@@ -32,6 +32,7 @@
                 <Block Type="MyObjectBuilder_Assembler" Subtype="Soya_Farm" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="HerbGrower" />
                 <Block Type="MyObjectBuilder_Assembler" Subtype="CustomKitchen" />
+                <Block Type="MyObjectBuilder_Refinery" Subtype="Composter" />
             </Blocks>
         </BlockVariantGroup>
         

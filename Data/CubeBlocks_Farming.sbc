@@ -383,5 +383,79 @@
       <PCU>100</PCU>
       <IsAirTight>false</IsAirTight>
 		</Definition>
+
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Composter</SubtypeId>
+      </Id>
+      <DisplayName>Composter</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Composter.dds</Icon>
+      <Description>The Composter composing grown Biomatter into nutrient rich Organic Matter.
+!!Attention!! 
+The composter is set to "use conveyor systen" on, so be carefull and turn it off before it drains all crop and compost it!
+      </Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Composter.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="80" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Girder" Count="20" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="Computer" Count="7" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Display" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+				<MountPoint Side="Left" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.67"/>
+				<MountPoint Side="Left" StartX="0.23" StartY="0.67" EndX="0.77" EndY="0.74"/>
+				<MountPoint Side="Right" StartX="0.10" StartY="0.00" EndX="0.90" EndY="0.67"/>
+				<MountPoint Side="Right" StartX="0.23" StartY="0.67" EndX="0.77" EndY="0.74"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Composter_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Large\Composter_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Composter_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockVariants> 
+			</BlockVariants>
+        <BlockPairName>Composter</BlockPairName>
+			<MirroringX>Y</MirroringX>
+			<MirroringY>X</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <InventoryFillFactorMin>0.3</InventoryFillFactorMin>
+      <InventoryFillFactorMax>0.6</InventoryFillFactorMax>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.02</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Composting</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1.0</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <OreAmountPerPullRequest>300</OreAmountPerPullRequest>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>
+    </Definition>
   </CubeBlocks>
 </Definitions>

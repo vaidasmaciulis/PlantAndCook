@@ -4,15 +4,18 @@ Planter and Kitchen blocks are made functional and allows to grow and cook food 
 Bar counter blocks are made functional as containers for consumables and food products.
 Wheat, Soya, Vegetables, Apple, Mushroom and Herb farm blocks are added. Thanks Kuvat for awesome models!
 Custom Kitchen reskin is added. This allows to use the mod without DLC.
+Comsposter block added that allows creating more Organics from grown plants, giving ability to farm in space and planets with no grass. (Expanding functionality of composter block in Algae mod)
 
 No Script version is [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2640914065]available[/url], without integration with ESDR stat mechanics.
 
 [h1]How to make food[/h1]
 
 Make can of water in Assembler or Emergency Ration Production Unit using Iron and Ice.
-Mine Grass on Earth/Alien/Pertam and some modded planets to get organics.
+Mine Grass on Earth/Alien/Pertam and some modded planets to get organics. 
 In case you are in deep space, create some organics yourself in the bathroom like a proud spaceman that you are.
 (If you do not have DLC with a bathroom, add another mod that has funcional toilet, I.e. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841717947]MA Admiral Suite[/url])
+Composter block can be used to make more Organics from farmed goods.
+WARNING! Composter works like Refinery and will automatically pull all your crop to make organics out of it. Be careful connecting it to conveyor system without sorter blocks.
 Hunt Wolves/Spiders to get meat.
 Search Unknown Signal drops and Economy stations for wheat, apples, etc to use them as a seed to grow more.
 Build Planters or Farming blocks to grow food. They work in the same way as Assemblers. See what items you need and put those to the block inventory (i.e. Ice, Organics, etc).
@@ -20,7 +23,7 @@ Build either one of the Kitchen blocks to make food out of ingredients. These bl
 You can sell raw food products in Economy stations. This gives a reason to farm and hunt more than you need to survive.
 
 
-[h2]Integrations[/h2]
+[h1]Integrations[/h1]
 
 This mod integrates with Eat. Drink. Sleep. Repeat! stat mechanics.
 
@@ -47,7 +50,7 @@ Make sure "Plant and Cook" mod is above planet mods in the list, for organics to
 Check collection for other mods that are compatible.
 
 
-[h2]FAQ[/h2]
+[h1]FAQ[/h1]
 
 - Does this work with Daily Needs?
 

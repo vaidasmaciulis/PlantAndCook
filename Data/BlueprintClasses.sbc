@@ -105,6 +105,19 @@
       <InputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</OutputConstraintIcon>
     </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>Composting</SubtypeId>
+      </Id>
+      <DisplayName>Composting</DisplayName>
+      <Description>Composting</Description>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
+      <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_algae.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+    </Class>
   </BlueprintClasses>
   <BlueprintClassEntries>     
     <Entry Class="Farming" BlueprintSubtypeId="Soya" />
@@ -129,5 +142,14 @@
     <Entry Class="BasicComponents" BlueprintSubtypeId="EmptyTinCan" />
     <Entry Class="SimpleComponents" BlueprintSubtypeId="EmptyTinCan" />
     <Entry Class="Components" BlueprintSubtypeId="EmptyTinCan" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingAlgae" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingH2Algae" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingMushrooms" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingApple" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingPumpkin" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingCabbage" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingWheat" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingSoya" />
+    <Entry Class="Composting" BlueprintSubtypeId="CompostingHerbs" />
   </BlueprintClassEntries>
 </Definitions>
