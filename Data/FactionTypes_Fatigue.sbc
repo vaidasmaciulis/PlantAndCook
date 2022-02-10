@@ -43,6 +43,7 @@
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Cabbage" />
             <ItemId Type="MyObjectBuilder_Ingot" Subtype="Herbs" />
             <ItemId Type="MyObjectBuilder_ConsumableItem" Subtype="Meat" />
+            <ItemId Type="MyObjectBuilder_Ore" Subtype="Organic" />
         </OffersList>
 
         <OrdersList>            
