@@ -115,8 +115,8 @@
       <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\component.dds</HighlightIcon>
       <FocusIcon>Textures\GUI\Icons\buttons\component_focus.dds</FocusIcon>
-      <InputConstraintIcon>Textures\GUI\Icons\filter_algae.dds</InputConstraintIcon>
-      <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\FilterFood.dds</OutputConstraintIcon>
     </Class>
   </BlueprintClasses>
   <BlueprintClassEntries>     
