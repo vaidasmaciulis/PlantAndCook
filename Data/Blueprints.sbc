@@ -340,6 +340,21 @@
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="EuropaTea" />
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SparklingWaterCan</SubtypeId>
+      </Id>
+      <DisplayName>Sparkling Water</DisplayName>
+      <Icon>..\2547246713\Textures\GUI\Icons\Items\SparklingWat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="EmptyTinCan" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Ice" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="SparklingWater" />
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
 
     <Blueprint>
       <Id>

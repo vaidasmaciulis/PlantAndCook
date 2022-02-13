@@ -132,6 +132,7 @@
     <Entry Class="Cooking" BlueprintSubtypeId="Soup" />
     <Entry Class="Cooking" BlueprintSubtypeId="MushroomSoup" />
     <Entry Class="Cooking" BlueprintSubtypeId="TofuSoup" />
+    <Entry Class="Cooking" BlueprintSubtypeId="SparklingWaterCan" />
     <Entry Class="Cooking" BlueprintSubtypeId="EuropaTea" />
     <Entry Class="MushroomsFarm" BlueprintSubtypeId="FarmedMushrooms" />
     <Entry Class="AppleFarm" BlueprintSubtypeId="FarmedApples" />
