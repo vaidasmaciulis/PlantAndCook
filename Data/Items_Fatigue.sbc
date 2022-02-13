@@ -376,7 +376,7 @@
         <TypeId>ConsumableItem</TypeId>
         <SubtypeId>Soup</SubtypeId>
       </Id>
-      <DisplayName>Soup</DisplayName>
+      <DisplayName>Meat Soup</DisplayName>
       <Description>Delicious, filling and healthy. Real super-food.</Description>
       <Icon>Textures\GUI\Icons\Soup.png</Icon>
       <Size>
@@ -395,6 +395,35 @@
       </Stats>
       <IconSymbol></IconSymbol>
       <MinimalPricePerUnit>750</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>MushroomSoup</SubtypeId>
+      </Id>
+      <DisplayName>Mushroom Soup</DisplayName>
+      <Description>Something warm for the belly.</Description>
+      <Icon>Textures\GUI\Icons\MushroomSoup.png</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Consumables\MushroomSoup.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Health" Value="0.02" Time="5"/>
+        <Stat Name="Food" Value="0.1" Time="5"/>
+        <Stat Name="Water" Value="0.1" Time="5"/>
+      </Stats>
+      <IconSymbol></IconSymbol>
+      <MinimalPricePerUnit>400</MinimalPricePerUnit>
       <MinimumOfferAmount>1000</MinimumOfferAmount>
       <MaximumOfferAmount>10000</MaximumOfferAmount>
       <CanPlayerOrder>true</CanPlayerOrder>

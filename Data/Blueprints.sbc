@@ -195,7 +195,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>Soup</SubtypeId>
       </Id>
-      <DisplayName>Soup</DisplayName>
+      <DisplayName>Meat Soup</DisplayName>
       <Description>Delicious, filling and healthy. Real super-food.</Description>
     <Icon>Textures\GUI\Icons\Soup.png</Icon>
       <Prerequisites>
@@ -208,6 +208,24 @@
       </Prerequisites>
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="Soup" />
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>MushroomSoup</SubtypeId>
+      </Id>
+      <DisplayName>Mushroom Soup</DisplayName>
+      <Description>Something warm for the belly.</Description>
+    <Icon>Textures\GUI\Icons\MushroomSoup.png</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="5" TypeId="ConsumableItem" SubtypeId="Mushrooms" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Pumpkin" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Herbs" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="MushroomSoup" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
