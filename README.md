@@ -8,19 +8,34 @@ Comsposter block added that allows creating more Organics from grown plants, giv
 
 No Script version is [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2640914065]available[/url], without integration with ESDR stat mechanics.
 
-[h1]How to make food[/h1]
+[h1]How to get Organics[/h1]
 
-Make can of water in Assembler or Emergency Ration Production Unit using Iron and Ice.
-Mine Grass on Earth/Alien/Pertam and some modded planets to get organics. 
-In case you are in deep space, create some organics yourself in the bathroom like a proud spaceman that you are.
-(If you do not have DLC with a bathroom, add another mod that has funcional toilet, I.e. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841717947]MA Admiral Suite[/url])
-Composter block can be used to make more Organics from farmed goods.
-WARNING! Composter works like Refinery and will automatically pull all your crop to make organics out of it. Be careful connecting it to conveyor system without sorter blocks.
-Hunt Wolves/Spiders to get meat.
-Search Unknown Signal drops and Economy stations for wheat, apples, etc to use them as a seed to grow more.
-Build Planters or Farming blocks to grow food. They work in the same way as Assemblers. See what items you need and put those to the block inventory (i.e. Ice, Organics, etc).
-Build either one of the Kitchen blocks to make food out of ingredients. These blocks also works like Assembler.
-You can sell raw food products in Economy stations. This gives a reason to farm and hunt more than you need to survive.
+Organics is ore type that is required for growing various plants in Farming blocks.
+There are several ways to get Organics:
+
+- Mine grass in planets. This will work in vanilla planets and some modded planets, depending of what voxel types they use. (Teal and Exolia planets are integrated)
+
+- Use your own body to convert food to Organics in toilet/bathroom. If you do not have DLC with toilet block, you can use various mods adding toilets, like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1841717947]MA Admiral Suite[/url].
+
+- Use Composter block to make Organics from farmed plants. It will make twice the Organics used to grow plant in Farming block. So you can make more and more Organics repeating grow/compost process. Algae from Algae mod can be also composted in this block.
+!WARNING! Composter works like Refinery and will automatically pull all your crop to make Organics out of it. Be careful connecting it to conveyor system without sorter blocks.
+
+- Buy Organics in Miners Economy Stations.
+
+
+[h1]How to make food and drinks[/h1]
+
+- Make can of water in Assembler or Emergency Ration Production Unit using Iron and Ice.
+
+- Hunt Wolves/Spiders to get meat. Some modded animals also drops meat (like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2170447225]Earthlike animals[/url])
+
+- Search Unknown Signal drops and Economy stations for wheat, apples, etc to use them as a seed to grow more.
+
+- Build Planters or Farming blocks to grow food. They work in the same way as Assemblers. See what items you need and put those to the block inventory (i.e. Ice, Organics, etc).
+
+- Build either one of the Kitchen blocks to make food out of ingredients. These blocks also works like Assembler.
+
+- You can sell raw food products in Economy stations. This gives a reason to farm and hunt more than you need to survive.
 
 
 [h1]Integrations[/h1]
@@ -55,6 +70,10 @@ Check collection for other mods that are compatible.
 - Does this work with Daily Needs?
 
 No. This mod has entirely different implementation, no integration with Daily Needs is possible.
+
+- No plants appear in Drop Pods or Economy stations.
+
+"Plant and Cook" mod needs to be higher in list of game mods than "Eat. Drink. Sleep. Repeat!". Also higher than any mod that makes changes in Drop Pods or Economy Stations offers.
 
 
 [h1]Acknowledgements[/h1]
