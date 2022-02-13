@@ -1,3 +1,12 @@
+UPDATE 2/13/2022:
+
+- Composter block added
+- Tofu Soup dish added
+- Mushroom Soup dish added
+- Organics ore can be bought in Miners economy stations now
+- Sparkling water can be made in kitchen now
+- Bug fix: Herbs can now be used in personal Store block
+
 UPDATE 12/27/2021:
 
 - Fixed crash when shooting at Empty Tin Can
