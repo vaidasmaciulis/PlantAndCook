@@ -227,6 +227,25 @@
       <Result Amount="1" TypeId="ConsumableItem" SubtypeId="MushroomSoup" />
       <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
     </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>TofuSoup</SubtypeId>
+      </Id>
+      <DisplayName>Tofu Soup</DisplayName>
+      <Description>Some say it is almost as good as meat soup</Description>
+    <Icon>Textures\GUI\Icons\TofuSoup.png</Icon>
+      <Prerequisites>
+        <Item Amount="4" TypeId="Ore" SubtypeId="Ice" />
+        <Item Amount="1" TypeId="ConsumableItem" SubtypeId="Tofu" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Cabbage" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Soya" />
+        <Item Amount="2" TypeId="Ingot" SubtypeId="Herbs" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="ConsumableItem" SubtypeId="TofuSoup" />
+      <BaseProductionTimeInSeconds>15</BaseProductionTimeInSeconds>
+    </Blueprint>
 
     <Blueprint>
       <Id>

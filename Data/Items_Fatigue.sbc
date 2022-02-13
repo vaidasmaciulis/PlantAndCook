@@ -432,6 +432,35 @@
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
       <Id>
         <TypeId>ConsumableItem</TypeId>
+        <SubtypeId>TofuSoup</SubtypeId>
+      </Id>
+      <DisplayName>Tofu Soup</DisplayName>
+      <Description>Some say it is almost as good as meat soup</Description>
+      <Icon>Textures\GUI\Icons\TofuSoup.png</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>0.5</Mass>
+      <Volume>0.5</Volume>
+      <Model>Models\Consumables\SoupWithBread.mwm</Model>
+      <PhysicalMaterial>None</PhysicalMaterial>
+      <Stats>
+        <Stat Name="Health" Value="0.05" Time="5"/>
+        <Stat Name="Food" Value="0.15" Time="5"/>
+        <Stat Name="Water" Value="0.15" Time="5"/>
+      </Stats>
+      <IconSymbol></IconSymbol>
+      <MinimalPricePerUnit>600</MinimalPricePerUnit>
+      <MinimumOfferAmount>1000</MinimumOfferAmount>
+      <MaximumOfferAmount>10000</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+    
+    <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
+      <Id>
+        <TypeId>ConsumableItem</TypeId>
         <SubtypeId>Tofu</SubtypeId>
       </Id>
       <DisplayName>Tofu</DisplayName>
