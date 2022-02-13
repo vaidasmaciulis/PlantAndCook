@@ -258,6 +258,7 @@
       <MaximumOfferAmount>10</MaximumOfferAmount>
       <MinimumOrderAmount>1000</MinimumOrderAmount>
       <MaximumOrderAmount>20000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
 
     <PhysicalItem xsi:type="MyObjectBuilder_ConsumableItemDefinition">
