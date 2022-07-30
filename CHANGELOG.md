@@ -1,3 +1,8 @@
+UPDATE 7/30/2022:
+
+- Fixed block replace logic for grids, where i.e. new kichen was placed on top of old one.
+- Added replace logic for Bar Counter blocks as well. Bar counters will be functional in NPC grids, etc.
+
 UPDATE 2/13/2022:
 
 - Composter block added
